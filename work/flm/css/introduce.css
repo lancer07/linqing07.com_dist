@@ -1,0 +1,22 @@
+.main{ width:922px; border:#CCCCCC 1px solid;}
+.intro{ width:860px; margin-left:30px; margin-top:20px; font-size:14px; color:#A08540; line-height:25px; font-weight:bold;}
+.main_l{ width:350px; float:left; margin-left:20px; margin-top:20px;}
+.big_img img{ width:310px; margin-left:30px; border:4px #CCCCCC double;}
+.small_img table{ margin:10px auto auto 30px;}
+.small_img table td{ width:80px; height:80px; text-align:center; }
+.small_img table td img{ width:70px; height:70px; border:1px solid #CCCCCC; cursor:pointer;}
+.more{ margin:10px auto auto 250px; font-size:12px;}
+.main_r{ width:480px;_width:470px; float:left; margin-left:60px;_margin-left:40px; margin-top:30px; font-size:14px; font-weight:bold;line-height:25px; color:#666666;}
+.buy{ margin:-180px auto auto 280px;}
+.buy img{ width:160px; height:160px; border:0px;} 
+
+.services_title,.function_title,.notice_title{background-image:url(/work/flm/images/title.gif); width:860px; height:27px; margin:10px auto auto 30px; font-weight:bold;color:#FFFFFF; overflow:hidden;}
+.services_title div,.function_title div,.notice_title div{padding-left:20px; padding-top:5px;}
+.services_content,.function_content,.notice_content{ margin:10px auto auto 40px; width:840px; font-size:12px; color:#666666; line-height:25px;}
+.function_l{width:350px; float:left; }
+.function_r{width:280px; margin-top:10px; float:right; margin-right:20px; }
+
+.services_content img{ height:26px; margin-right:8px; margin-bottom:10px;}
+
+
+.biao{ font-size:14px; color:#666666; margin-top:5px;}

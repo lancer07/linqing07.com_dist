@@ -1,0 +1,14 @@
+body{ margin:0; padding:0; font-size:12px; font-family:Verdana, Arial,宋体; text-align:center; background-color:#FFFFFF; overflow:scroll;}
+#clear{ clear:both;}
+.header{ height:59px; width:924px; font-size:12px;}
+.return_index a:link,.return_index a:visited,.return_index a:active,.return_index a:hover{ color:#fe0000; font-size:12px; text-decoration:none;}
+
+.nav a:link,.nav a:active,.nav a:visited{ color:#FFFFFF; font-size:14px; text-decoration:none; display:block; height:23px; padding-top:4px; vertical-align:middle;}
+.nav a:hover{ background-image:url(/work/flm/images/nav.gif);height:23px; display:block; padding-top:4px; font-weight:lighter; vertical-align:middle; }
+
+.actived{background-image:url(/work/flm/images/nav.gif); display:block; height:23px; padding-top:3px; }
+
+
+.footer{text-align:center; height:62px;}
+.footer table{ margin-top:0px; text-align:center; line-height:20px; color:#6D6D6D; font-size:12px;}
+#hr1{ background-image:url(/work/flm/images/hr1.gif); height:1px; background-repeat:repeat-x; margin:0;}

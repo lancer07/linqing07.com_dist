@@ -1,0 +1,1 @@
+if("object"!=typeof lancer)var lancer={};lancer.qq=function(){function n(){var n=$(document).scrollTop()+120;o.animate({top:n},"fast")}var o=$(".qq");this.onReady=function(){$(window).scroll(function(){n()})}},$(function(){(new lancer.qq).onReady()});

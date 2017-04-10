@@ -1,0 +1,83 @@
+/*<meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7" /> */
+/*behavior:url(ie-css3.htc);*/
+@charset "utf-8";
+html,body{height:100%;}
+body{margin:0; padding:0; font-size:12px; font-family:"微软雅黑","宋体",Verdana, Arial; background:#FFF; text-align:center; color:#333; background:url(/work/smsg/images/bg3.jpg) no-repeat center top #000; width:100%; }
+*{font-size:12px; margin:0; padding:0; border:0; list-style:none;font-family:"微软雅黑","宋体",Verdana, Arial;}
+img{border:0;}
+a{text-decoration:none;}
+a:hover{ text-decoration:underline}
+a img{opacity:1;filter: alpha(opacity=100);}
+a:hover img{opacity: 0.8; filter: alpha(opacity=80);}
+.clear{clear:both;}
+.MainIndex{text-align:left; width:960px; margin:0 auto ; padding:0; height:100%;   }
+
+.Top{ float:left; width:960px; height:96px;margin-bottom:8px;}
+.Logo{ width:131px; height:96px; float:left}
+.Search{ float:right; width:260px; text-align:right}
+
+
+
+
+.SearchTxt{  background:url(/work/smsg/images/searchbg.jpg) no-repeat; height:33px; line-height:33px; padding-left:12px; padding-right:12px; width:168px; color:#848482}
+.SearchBtn{ background:none; border:0px solid #000; cursor:pointer; font-size:16px; color:#655019; margin-right:4px; vertical-align:middle;font-weight:bold}
+
+
+.Tel{ float:right; margin-top:40px; margin-right:30px;}
+
+.Nav{ height:34px; line-height:34px; clear:both; background:#f5f5f5 }
+.Nav ul.Menu{ margin-left:16px; float:left; width:680px;}
+.Nav ul.Menu li{ float:left; margin-right:5px; }
+.Nav ul.Menu li a{ color:#36200a; display:block;padding-left:11px; padding-right:24px; font-weight:bold;}
+.Nav ul.Menu li a:hover{ color:#FFF; text-decoration:none; background:url(/work/smsg/images/nav_bg.gif) no-repeat right center;}
+.now{color:#FFF!important; text-decoration:none; background:url(/work/smsg/images/nav_bg.gif) no-repeat right center;}
+
+.Nav ul.Choose{ float:right}
+.Nav ul.Choose li{ float:left}
+
+
+
+.Banner{ width:960px; height:461px;}
+
+
+.Index3{ background:url(/work/smsg/images/indexsbg.jpg) no-repeat #040000; padding-top:43px; float:left; width:960px;}
+
+
+.Video,.Products,.News{ float:left}
+
+.Video{ width:280px}
+.VideoTop{ background:url(/work/smsg/images/videotop.jpg); height:27px; line-height:24px; color:#fff; font-size:13px; padding-left:7px;}
+
+.Products{ width:389px; margin:0 20px 0 21px}
+.ProductsTop{ background:url(/work/smsg/images/productstop.jpg); height:27px; line-height:24px;font-size:13px; padding-left:7px;color:#fff;}
+.ProductsTop a{ float:right; margin-top:5px; margin-top:-19px\9; margin-top:5px\0;}
+
+
+
+.News{ width:250px;}
+.NewsTop{ background:url(/work/smsg/images/newstop.jpg); height:27px; line-height:24px;font-size:13px; padding-left:7px;color:#fff;}
+.NewsTop a{ float:right;margin-top:5px; margin-top:-19px\9; margin-top:5px\0}
+
+.Index3 div.News ul{ background:#453f30; width:230px; height:130px; padding-left:20px; padding-top:10px;}
+
+.Index3 div.News ul li{ line-height:18px; margin-bottom:5px;}
+.Index3 div.News ul li p{ color:#867d67; padding-left:10px;}
+
+.Index3 div.News ul li a{ color:#a79e88; padding-left:10px; background:url(/work/smsg/images/li1.gif) no-repeat center  left}
+.Index3 div.News ul li a:hover{ color:#FFF;background:url(/work/smsg/images/li2.gif) no-repeat center  left; text-decoration:none}
+
+
+
+.Footer{ background:url(/work/smsg/images/footerbg.jpg) no-repeat; height:42px; clear:both; padding-top:12px; padding-bottom:10px;}
+
+
+.Footer p{ line-height:22px; color:#7c6636}
+.Footer p a{ color:#7c6636; font-weight:bold}
+
+
+
+
+
+
+
+

@@ -1,0 +1,1 @@
+if("object"!=typeof lancer)var lancer={};lancer.print=function(){this.onReady=function(){var n=$("#print");n.click(function(n){n.preventDefault(),window.print()})}},$(function(){(new lancer.print).onReady()});

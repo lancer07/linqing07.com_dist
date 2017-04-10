@@ -1,0 +1,80 @@
+/*<meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7" /> */
+
+@charset "utf-8";
+html,body{height:100%;}
+body{margin:0; padding:0; font-size:12px; font-family:"宋体",Verdana, Arial; background: #A4A3B5 url(/work/wl/images/bg2.jpg) repeat-x; text-align:left; color:#333;}
+img, div, input { behavior: url("/work/wl/css/iepngfix.htc")}
+*{font-size:12px; font-family:"宋体",Arial,Verdana; color:#333; margin:0; padding:0; border:0; font-weight:lighter; }
+a{text-decoration:none;}
+
+ul,li{list-style:none;}
+.clear{clear:both;}
+.top{ width:98%; margin:0 1%;}
+.top h1{ float:left}
+.top table{ float:right;  margin-top:9px;}
+.top table tr td{ color:#fff}
+.top table tr td a{ color:#FFF; font-size:13px;}
+.top table tr td b a{ color:#ffff00; font-size:13px;}
+.top table tr td a:hover{ color:#ffff00;}
+
+.top_menu{min-width:400px; _width:400px; float:left; padding-top:71px; margin-left:18px}
+.top_menu ul li{ float:left; margin-right:8px;  _width:120px;}
+.top_menu ul li a{ display:block; margin-left:15px; padding-right:15px; font-weight:bold; font-size:13px;}
+
+.top_before{ background:url(/work/wl/images/top_before_left.gif) left no-repeat; height:28px; line-height:28px; vertical-align:middle; }
+.top_before a{background:url(/work/wl/images/top_before_right.gif) right no-repeat; height:28px; line-height:28px; vertical-align:middle;  color:#000}
+
+.top_now{ background:url(/work/wl/images/top_now_left.gif) left no-repeat; height:31px; line-height:31px; vertical-align:middle; margin-top:-3px;}
+.top_now a{background:url(/work/wl/images/top_now_right.gif) right no-repeat; height:31px; line-height:31px; vertical-align:middle; color:#FFF}
+
+
+
+
+
+.main_index{text-align:left; width:98%; margin:0 1%; background:#FFF; padding:0; height:630px; border-top:8px solid #d9d9e1; }
+.main_table{ width:100%}
+.main_left{ width:199px; background:url(/work/wl/images/left_bg.gif) repeat-y; height:630px; overflow:hidden}
+.main_right{ width:100%; height:630px;}
+.user_photo{ width:119px; height:114px; margin:0px auto 10px 38px; padding-top:9px;}
+.user_photo img{ width:117px; height:112px; border:1px solid #c0c0c0}
+
+.signature{ background:url(/work/wl/images/signature_bg.gif); margin-left:10px; width:157px; height:23px; line-height:23px; padding-left:10px; padding-right:10px; color:#FFF; overflow:hidden; text-overflow:ellipsis; white-space:nowrap\9; _white-space:nowrap; cursor:pointer;}
+
+.signature:after { content:"..."; }
+
+
+
+
+
+.left_menu{  margin-top:17px;}
+.left_menu ul{ margin-left:18px; }
+.left_menu ul li{ text-align:left; margin-bottom:3px; cursor:pointer  }
+.left_menu ul li a img{ vertical-align:middle; margin-right:16px; margin-top:-2px; _margin-top:3px;}
+
+
+.ol1{ display:none;}
+.left_menu ol{ margin-left:20px;}
+.left_menu ol li{text-align:left; margin-bottom:1px; height:27px; line-height:27px; vertical-align:middle; padding-left:35px;  background:url(/work/wl/images/left_ol_li.gif) repeat-x; width:144px; border:1px solid #d6d6d6; border-bottom:0; _padding-top:9px; _height:18px; overflow:hidden;}
+.left_menu ol li img{ margin-right:30px; vertical-align:middle}
+.left_menu ol li a:hover{ color:#2358A1; text-decoration:underline;}
+
+
+.just1{ display:block; width:158px; height:51px; padding-left:23px; line-height:51px;  background:url(/work/wl/images/left_menu_bg.jpg) no-repeat; font-weight:bold; color:#000; font-size:14px; _padding-top:6px; _height:45px;}
+
+.now1,.just1:hover{ background:url(/work/wl/images/left_menu_bg_hover.jpg) no-repeat; color:#015299; display:block; width:158px; height:51px; padding-left:23px; line-height:51px; font-weight:bold; font-size:14px; _padding-top:6px; _height:45px;}
+
+.time_bar{ margin-left:19px; width:97%; height:48px; line-height:52px; background:url(/work/wl/images/time_bg.jpg) no-repeat #fff; border-bottom:1px solid #e1e1e1}
+.time_bar p{ margin-left:50px; font-size:13px;}
+
+.main_right iframe{ height:515px; width:100%;}
+
+.content_us_bar{ background:url(/work/wl/images/content_us_bar.jpg) no-repeat #FDFDFF; height:50px;_height:46px;  padding-top:16px; width:100%;}
+.content_us_bar table{ margin:0px auto auto 20px; }
+.content_us_bar table tr td{ font-size:13px; color:#000}
+.content_us_bar table tr td a{ font-weight:bold; text-decoration:underline; font-family:Verdana, Geneva, sans-serif; font-size:11px; color:#000}
+.content_us_bar table tr td b{ font-weight:bold;  font-size:12px; color:#000}
+
+
+.main_bottom{ background:url(/work/wl/images/main_bottom_right.jpg) right no-repeat; height:49px; width:100%}
+.main_bottom p { background:url(/work/wl/images/main_bottom_left.jpg) left no-repeat; margin-right:349px; height:49px;}
+

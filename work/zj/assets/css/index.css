@@ -1,0 +1,63 @@
+/* CSS Document */
+
+
+.bk199 { margin-bottom: 14px; padding-top: 2px; width: 199px; background: url(/work/zj/assets/images/layout/bk199_top.gif) no-repeat left top; }
+.bk199 .bkm { padding: 3px 4px 5px 4px; width:191px; background: url(/work/zj/assets/images/layout/bk199_main.gif) no-repeat left bottom; clear: both }
+.bk199 .tit { margin-top: -2px; padding: 0 10px; height: 27px; line-height: 27px; text-align: right; background: url(/work/zj/assets/images/layout/bk199_tit.gif) }
+.bk199 .tit strong { color: #1ab1cd; font-weight: bold; float: left }
+.bk199 .tit span { font-size: 0.75em; }
+.bk247 { margin-bottom: 14px; padding-top: 2px; width: 247px; background: url(/work/zj/assets/images/layout/bk247_top.gif) no-repeat left top; }
+.bk247 .bkm { padding: 3px 4px 5px 4px; background: url(/work/zj/assets/images/layout/bk247_main.gif) no-repeat left bottom; clear: both }
+.bk247 .tit { margin: -2px 0 5px 0; padding: 0 0 0 5px; height: 18px; line-height: 18px; text-align: right; }
+.bk247 .tit strong { float: left }
+.bk247 .tit span { font-size: 0.75em; margin-right: 5px; }
+.bk247 .tit a img { margin-top: -3px; _margin-top:0 }
+.bk247 .searchDay { margin-bottom: 5px; padding: 3px 0 3px 5px; background: #f3f3f3; }
+.bk247 .searchDay label { float: left; line-height: 15px; }
+.bk247 .searchDay input { float: left; height: 14px; margin: 0 3px; width: 89px; padding-left: 5px; border: 1px solid #ddd; font-size: 0.9em; }
+
+.siteSearch { margin-top: -10px; }
+.siteSearch .tit { color: #0398b4; line-height: 24px; text-align: left; font-size: 1.1em }
+.siteSearch input { float: left; height: 22px; margin: 0 3px; width: 170px; padding-left: 5px; border: 1px solid #bdd2e5; font-size: 0.9em; }
+.siteSearch button.bigSearch {margin-left: 5px; }
+.fastLink { padding: 11px 14px 0 14px; width: 162px; height: 142px; background: url(/work/zj/assets/images/fastLinkBg.jpg) no-repeat }
+.fastLink li { padding-left: 36px; height: 27px; line-height: 23px; border-bottom: 1px dashed #d8e1e1; background-repeat: no-repeat; background-position: 5px center }
+.fastLink li.test { background-image: url(/work/zj/assets/images/icon/icon1.png) }
+.fastLink li.openAccount { background-image: url(/work/zj/assets/images/icon/icon2.png) }
+.fastLink li.tradeLogin { background-image: url(/work/zj/assets/images/icon/icon3.png) }
+.fastLink li.search { background-image: url(/work/zj/assets/images/icon/icon4.png) }
+.fastLink li.notice { background-image: url(/work/zj/assets/images/icon/icon5.png); border: 0; }
+.fastLink a { color: #5da4d8; }
+.fastLink a:hover { text-decoration: underline }
+.tradeList tr th { height: 35px; }
+.tradeList tr td { height: 27px; border-bottom: 1px dashed #f3f3f3; text-align: center; }
+.tradeList tr.type td { padding: 0 10px 0 12px; background: #f3f3f3; text-align: right; vertical-align: middle }
+.tradeList tr.type td strong { font-weight: bold; float: left }
+.tradeList tr.type td a img { margin-top: -4px; _margin-top:0}
+.focus { margin-bottom: 14px }
+.bkList { margin-bottom: 14px; clear: both }
+.bkList .tit { margin-bottom: 5px; text-align: right; height: 25px; border-bottom: 1px solid #dedfde; }
+.bkList .tit a { color: #000 }
+.bkList .tit strong { padding-left: 21px; float: left; font-weight: bold; }
+.bkList .tit strong.news { background: url(/work/zj/assets/images/icon/news.png) no-repeat left center }
+.bkList .tit strong.message { background: url(/work/zj/assets/images/icon/message.png) no-repeat left 4px; }
+.bkList .tit strong.finance { background: url(/work/zj/assets/images/icon/finance.png) no-repeat left center; }
+.bkList .tit strong.hot { background: url(/work/zj/assets/images/icon/hot.png) no-repeat left center; }
+
+.bkList .newsList li { line-height: 25px; line-height:28px\9; line-height:25px\0; clear:both; text-align: right; }
+.bkList .newsList li.highLight, .newsList li.highLight a { color: #c9191d }
+.bkList .newsList li em { float: left; display: inline-block; width: 80px; text-align: center }
+.bkList .newsList li a { float: left; }
+
+.hasImg .newsList, .hasImg .bkListImg { float: left }
+.hasImg .newsList { width: 336px; }
+.hasImg .newsList li { padding-left: 10px; background: url(/work/zj/assets/images/point.gif) no-repeat left center }
+.hasImg .bkListImg { margin: 26px 16px; }
+.hasImg .bkListImg img { width: 66px; height: 45px; }
+.fundList tr th { border-right: 2px solid #FFF }
+.fundList tr th em { display: block; color: #FFF; line-height: 18px; background: #1a74a8 url(/work/zj/assets/images/layout/thbg.jpg) repeat-x left top; border: 1px solid #1a74a8; }
+.fundList tr td { border-bottom: 1px dashed #ddd; line-height: 23px; padding-left: 3px; }
+.btnRow { text-align: center; margin: 10px auto; }
+.updown { padding-left: 11px; text-align: left; display: inline-block; background: url(/work/zj/assets/images/updown.jpg) no-repeat; width: 77px; height: 27px; line-height: 25px; color: #7d7d7d; }
+.netValue { padding-left: 11px; text-align: left; display: inline-block; background: url(/work/zj/assets/images/netValue.jpg) no-repeat; width: 77px; height: 27px; line-height: 25px; color: #7d7d7d }
+.center { text-align: center; }

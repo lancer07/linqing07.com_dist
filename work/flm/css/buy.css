@@ -1,0 +1,12 @@
+.main{ width:922px; border:#CCCCCC 1px solid;}
+.buy_title{background-image:url(/work/flm/images/title.gif); width:860px; height:27px; margin:10px auto auto 30px; font-weight:bold;color:#FFFFFF; overflow:hidden;}
+.buy_title div{padding-left:20px; padding-top:5px;}
+.buy_content{ margin:10px auto auto 40px; width:840px; font-size:14px; color:#666666; }
+.m{ line-height:35px;}
+.m span{ font-size:22px; color:#FF6600; font-weight:bold}
+#bd{ color:#FE0000; font-size:24px; font-weight:bold;}
+
+
+.downloads{ margin:10px auto 0px 40px; line-height:25px; width:600px;}
+.downloads table{font-size:14px; color:#996633; font-weight:lighter; border:1px; }
+.zhu{ font-size:14px; color:#FF0000;}

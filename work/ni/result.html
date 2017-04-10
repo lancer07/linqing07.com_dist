@@ -1,0 +1,493 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>NI ProfessorTrackingSystem</title>
+<script type="text/javascript" src="/work/ni/js/jquery-1.3.2.min.js"></script>
+<script type="text/javascript" src="/work/ni/js/all.js"></script>
+<link rel="stylesheet" type="text/css" href="/work/ni/css/skin.css">
+</head>
+<body>
+<div class="top">
+  <h1><img src="/work/ni/images/logo.jpg" width="163" height="47"></h1>
+  <span><img src="/work/ni/images/return.gif" width="13" height="21"> &nbsp;<a href="#">[设置]</a> &nbsp;<a href="#">[注销]</a> &nbsp;<a href="#">[退出]</a> </span> </div>
+<div class="main_index">
+  <table border="0" cellspacing="0" cellpadding="0" class="main_table">
+    <tr>
+      <td valign="top">
+      <div class="main_left">
+          <div class="info">
+            <p>欢迎您，<strong>Lancer</strong>07</p>
+            <p>[<a href="#">系统管理员</a>，<a href="#">退出</a>]</p>
+          </div>
+          <div class="left_menu">
+            <h2><a href="search.html">查询</a></h2>
+            <!--            <ul>
+              <li><a href="#">123</a></li>
+              <li><a href="#">12321</a></li>
+            </ul>-->
+            <h2><a href="report.html">报表</a></h2>
+            <!--            <ul>
+              <li><a href="#" title="已经建立NI实验室的Contact(实验室方向)">已经建立NI实验室的Contact</a></li>
+              <li><a href="#" title="准备建立NI实验室的Contact(实验室方向)">准备建立NI实验室的Contact</a></li>
+              <li><a href="#" title="已经开设课程的Contact(课程方向)">已经开设课程的Contact...</a></li>
+              <li><a href="#" title="准备开设课程的Contact(课程方向)">准备开设课程的Contact...</a></li>
+              <li><a href="#" title="使用Mulstisim编写教材计划的教师">使用Mulstisim编写教材计...</a></li>
+              <li><a href="#" title="使用LabVIEW编写教材计划的教师">使用LabVIEW编写教材计划...</a></li>
+              <li><a href="#" title="根据地域（省份）导出所有联系人">根据地域（省份）导出所...</a></li>
+            </ul>-->
+          </div>
+      </div>
+        </td>
+      <td width="100%" valign="top">
+      <div class="main_right">
+          <div class="nav_menu">
+            <ul>
+              <li><a href="#" class="profile1 now1">基本信息</a></li>
+              <li><a href="#" class="survey1">调查</a></li>
+              <li><a href="#" class="rating1">评级</a></li>
+              <li ><a href="#" class="party1">活动</a></li>
+              
+            </ul>
+          </div>
+          <div class="sub_info">
+          <div class="main" style="border-top:0">
+
+                 <table border="0" cellpadding="3" cellspacing="1" class="table_style" style=" margin-bottom:-1px;"  >   
+               <tr>
+                <td width="20%" class="left_title_1">Contact Name</td>
+                <td width="30%">张慧妍 <img src="/work/ni/images/xx.jpg" width="71" height="17" /></td>
+                <td width="20%" class="left_title_1">Contact ID</td>
+                <td width="30%"><a href="#">123123</a></td>
+               
+              </tr>   
+              </table>
+                  
+                <div class="XiangQing"> 
+                 <table border="0" cellpadding="3" cellspacing="1" class="table_style profile2" >
+              <tr>
+                <td width="20%" class="left_title_1">职务</td>
+                <td width="30%">老师</td>
+                <td width="20%" class="left_title_1">电话</td>
+                <td>82-010-8573761</td>
+                </tr>
+              <tr>
+                <td class="left_title_1">学校名称</td>
+                <td>北京工商大学</td>
+                <td class="left_title_1">手机</td>
+                <td>86-13567898762</td>
+                </tr>
+              <tr>
+                <td class="left_title_1">院系</td>
+                <td>自动化系</td>
+                <td class="left_title_1">Email</td>
+                <td>zhanghui@th.btbu.edu.cn</td>
+                </tr>
+              <tr>
+                <td class="left_title_1">专业</td>
+                <td>计算机系</td>
+                <td class="left_title_1">地址</td>
+                <td>上海市虹口区曲阳路800号商务大厦</td>
+                </tr>
+              <tr>
+                <td class="left_title_1">学校类别</td>
+                <td>本科</td>
+                <td class="left_title_1">&nbsp;</td>
+                <td>&nbsp;</td>
+              </tr>
+              </table>
+               
+               
+              <table border="0" cellpadding="3" cellspacing="1" class="table_style survey2" style="display:none" >
+              <tr>
+                <td width="20%" class="left_title_2">使用产品情况</td>
+                <td colspan="3">&nbsp;</td>
+
+              </tr>
+              <tr>
+                <td class="left_title_1">是否已经在试用NI的产品</td>
+                <td width="30%"><input type="radio" name="radio1" id="radio" value="radio">
+                  已经试用
+                  <input type="radio" name="radio1" id="radio2" value="radio2">
+                  尚未使用</td>
+                <td class="left_title_1">开始使用日期</td>
+                <td><input type="text" name="textfield" id="textfield" />
+                <img src="/work/ni/images/date.png" width="16" height="16" /></td>
+              </tr>
+              <tr>
+                <td class="left_title_2">开课安排</td>
+                <td colspan="3">&nbsp;</td>
+              </tr>
+              <tr>
+                <td rowspan="2" class="left_title_1">您是否开设了基于NI平台的相关课程</td>
+                <td rowspan="2"><select name="select5" id="select5">
+                    <option>--请选择--</option>
+                    <option>已经开设</option>
+                    <option>准备开设</option>
+                    <option>尚未决定</option>
+                  </select></td>
+                <td class="left_title_1">开设日期</td>
+                <td><input type="text" name="textfield2" id="textfield2" />
+                <img src="/work/ni/images/date.png" width="16" height="16" /></td>
+              </tr>
+              <tr>
+                <td class="left_title_1">预计开设日期</td>
+                <td><input type="text" name="textfield3" id="textfield3" />
+                <img src="/work/ni/images/date.png" width="16" height="16" /></td>
+              </tr>
+              <tr>
+                <td class="left_title_1">若已经开设或准备开设，请简单提供相关信息</td>
+                <td>
+                    <select name="select6" id="select6">
+                     <option>--请选择--</option>
+                    <option>测量和仪器</option>
+                    <option>电路设计和仿真</option>
+                    <option>控制</option>
+                    <option>信号和图像处理</option>
+                    <option>射频和无线通信</option>
+                    <option>嵌入式系统</option>
+                    <option>其他</option>
+                    </select>
+                </td>
+                <td class="left_title_1">课程名称</td>
+                <td><input type="text" name="textfield7" id="textfield7" /></td>
+                </tr>
+              <tr>
+                <td class="left_title_1">您最近是否有相关教材写作计划</td>
+                <td><input type="radio" name="radio7" id="radio29" value="radio7" />
+有
+  <input type="radio" name="radio8" id="radio30" value="radio8" />
+无 </td>
+                <td class="left_title_1">&nbsp;</td>
+                <td>&nbsp;</td>
+              </tr>
+              <tr>
+                <td class="left_title_2">课程教材</td>
+                <td colspan="3">&nbsp;</td>
+              </tr>
+              <tr>
+                <td rowspan="2" class="left_title_1">您最近是否有相关教材写作计划</td>
+                <td rowspan="2"><select name="select7" id="select7">
+                  <option>--请选择--</option>
+                  <option>有计划</option>
+                  <option>尚无计划</option>
+                </select></td>
+                <td class="left_title_1">预计开始日期</td>
+                <td><input type="text" name="textfield4" id="textfield4" /> <img src="/work/ni/images/date.png" width="16" height="16" /></td>
+              </tr>
+              <tr>
+                <td class="left_title_1">课程教材使用</td>
+                <td><select name="select4" id="select4">
+                </select></td>
+              </tr>
+              <tr>
+
+                <td class="left_title_2">实验室</td>
+                <td colspan="3">&nbsp;</td>
+              </tr>
+              <tr>
+                <td rowspan="2" class="left_title_1">已建立基于NI平台的实验室建设计划</td>
+                <td rowspan="2"><select name="select8" id="select8">
+                  <option>--请选择--</option>
+                   <option>已经建立</option>
+                  <option>准备建立</option>
+                  <option>尚无建立</option>
+                </select></td>
+                <td class="left_title_1">建立时间</td>
+                <td><input type="text" name="textfield5" id="textfield5" />
+                <img src="/work/ni/images/date.png" width="16" height="16" /></td>
+              </tr>
+              <tr>
+                <td class="left_title_1">预计建立时间</td>
+                <td><input type="text" name="textfield6" id="textfield6" /> <img src="/work/ni/images/date.png" width="16" height="16" /></td>
+              </tr>
+              <tr>
+                <td class="left_title_1">如实验室已建立或计划建设，主要涉及：</td>
+                <td><select name="select9" id="select9">
+                  <option>--请选择--</option>
+                  <option>测量和仪器</option>
+                  <option>电路设计和仿真</option>
+                  <option>控制</option>
+                  <option>信号和图像处理</option>
+                  <option>射频和无线通信</option>
+                  <option>嵌入式系统</option>
+                  <option>其他</option>
+                </select></td>
+                <td class="left_title_1"></td>
+                <td></td>
+              </tr>
+              <tr>
+                <td class="left_title_2">使用LabVIEW情况</td>
+                <td colspan="3"></td>
+              </tr>
+                            <tr>
+                <td class="left_title_1">是否使用LabVIEW</td>
+                <td><select name="select" id="select">
+                  <option>--请选择版本号--</option>
+                </select></td>
+                <td class="left_title_1">是否已经编写或打算编写教材</td>
+                <td><input type="radio" name="radio9" id="radio9" value="radio9" />
+                  是 
+                    <input type="radio" name="radio10" id="radio10" value="radio10" />
+                  否</td>
+              </tr>
+               <tr>
+                <td class="left_title_2">使用Multisim情况</td>
+                <td colspan="3"></td>
+              </tr>
+                            <tr>
+                <td class="left_title_1">是否使用Multisim</td>
+                <td><select name="select" id="select">
+                  <option>--请选择版本号--</option>
+                </select></td>
+                <td class="left_title_1">是否已经编写或打算编写教材</td>
+                <td><input type="radio" name="radio9" id="radio9" value="radio9" />
+                  是 
+                    <input type="radio" name="radio10" id="radio10" value="radio10" />
+                  否</td>
+              </tr>
+                            <tr>
+                <td class="left_title_2">负责实验室信息</td>
+                <td colspan="3"></td>
+              </tr>
+                <tr>
+                <td class="left_title_1">课程人数</td>
+                <td><input type="text" name="textfield8" id="textfield8" /></td>
+                <td class="left_title_1">是否有配套硬件实验室</td>
+                <td><input type="radio" name="radio9" id="radio11" value="radio9" />
+是
+  <input type="radio" name="radio10" id="radio12" value="radio10" />
+否</td>
+              </tr>
+                      
+                <tr>
+                <td class="left_title_1">教授年级</td>
+                <td><input type="text" name="textfield9" id="textfield9" /></td>
+                <td class="left_title_1">是否必修课</td>
+                <td><input type="radio" name="radio9" id="radio25" value="radio9" />
+是
+  <input type="radio" name="radio10" id="radio26" value="radio10" />
+否</td>
+              </tr>
+                           
+                <tr>
+                <td class="left_title_1">NI软件使用</td>
+                <td><label>
+                  <select name="select2" id="select2">
+                    <option>--请选择--</option>
+                  </select>
+                </label></td>
+                <td class="left_title_1">NI硬件使用</td>
+                <td><select name="select3" id="select3">
+                  <option>--请选择--</option>
+                </select></td>
+              </tr>
+                          
+                <tr>
+                <td class="left_title_2">其他授课信息</td>
+                <td colspan="3"></td>
+              </tr>
+                           
+                <tr>
+                <td class="left_title_1">支撑课程名称</td>
+                <td><input type="text" name="textfield10" id="textfield10" /></td>
+                <td class="left_title_1">是否负责研究生/本科生毕业设计</td>
+                <td><input type="radio" name="radio9" id="radio27" value="radio9" />
+是
+  <input type="radio" name="radio10" id="radio28" value="radio10" />
+否</td>
+
+                       
+                <tr>
+                <td class="left_title_1">若是，所带学生数</td>
+                <td><input type="text" name="textfield11" id="textfield11" /></td>
+                <td class="left_title_1">专业</td>
+                <td><input type="text" name="textfield12" id="textfield12" /></td>
+
+</tr>
+                <td class="left_title_1">其他</td>
+                <td><input type="text" name="textfield13" id="textfield13" /></td>
+                <td class="left_title_1"></td>
+                <td>&nbsp;</td>
+              </tr>
+              </table>
+              
+              
+                    <table border="0" cellpadding="3" cellspacing="1" class="table_style rating2" style="display:none" >
+                  <tr>
+                    <td width="20%" class="left_title_2">教师对NI贡献评级</td>
+                    <td colspan="3">&nbsp;</td>
+                  </tr>
+                  <tr>
+                    <td class="left_title_1">是否在学术领域影响力较高</td>
+                    <td width="30%"><input type="radio" name="radio" id="radio" value="radio" />
+                      是 
+                      <input type="radio" name="radio2" id="radio2" value="radio2" /> 
+                      否</td>
+                    <td width="20%" class="left_title_1">是否开设相关课程或实验室</td>
+                    <td><input type="radio" name="radio" id="radio3" value="radio" />
+                是
+                  <input type="radio" name="radio2" id="radio4" value="radio2" />
+                否</td>
+                  </tr>
+                  <tr>
+                    <td class="left_title_1">是否编写相关教材、课件</td>
+                    <td><input type="radio" name="radio" id="radio5" value="radio" />
+                是
+                  <input type="radio" name="radio2" id="radio6" value="radio2" />
+                否</td>
+                    <td class="left_title_1">是否带领或指导学生参加相关竞赛活动</td>
+                    <td><input type="radio" name="radio" id="radio7" value="radio" />
+                是
+                  <input type="radio" name="radio2" id="radio8" value="radio2" />
+                否</td>
+                  </tr>
+                  <tr>
+                    <td class="left_title_2">LabVIEW水平评级</td>
+                    <td colspan="3">&nbsp;</td>
+                  </tr>
+                  <tr>
+                    <td class="left_title_1">是否参加过LabVIEW相关培训</td>
+                    <td><input type="radio" name="radio" id="radio9" value="radio" />
+                是
+                  <input type="radio" name="radio2" id="radio10" value="radio2" />
+                否</td>
+                    <td class="left_title_1">是否通过CLAD等认证</td>
+                    <td><input type="radio" name="radio" id="radio13" value="radio" />
+                是
+                  <input type="radio" name="radio2" id="radio14" value="radio2" />
+                否</td>
+                  </tr>
+                  <tr>
+                    <td class="left_title_1">是否有论文或案例获奖</td>
+                    <td><input type="radio" name="radio" id="radio11" value="radio" />
+                是
+                  <input type="radio" name="radio2" id="radio12" value="radio2" />
+                否</td>
+                    <td class="left_title_1">&nbsp;</td>
+                    <td>&nbsp;</td>
+                  </tr>
+                  <tr>
+                    <td class="left_title_2">活跃度评级</td>
+                 <td colspan="3">&nbsp;</td>
+                  </tr>
+                  <tr>
+                    <td class="left_title_1">近两年年内参加NI活动或推荐学生参加的次数</td>
+                    <td><input type="text" name="textfield" id="textfield" /></td>
+                    <td class="left_title_1">&nbsp;</td>
+                    <td>&nbsp;</td>
+                  </tr>
+                  <tr>
+                    <td class="left_title_2">购买评级</td>
+                    <td colspan="3">&nbsp;</td>
+                  </tr>
+                    <tr>
+                    <td class="left_title_1">已购买金额大于</td>
+                    <td><input type="text" name="textfield2" id="textfield2" /></td>
+                    <td class="left_title_1">是否已购买</td>
+                    <td><input type="radio" name="radio" id="radio15" value="radio" />
+                是
+                  <input type="radio" name="radio2" id="radio16" value="radio2" />
+                否</td>
+                  </tr>
+                    <tr>
+                    <td class="left_title_1">是否decision maker</td>
+                    <td><input type="radio" name="radio" id="radio17" value="radio" />
+                是
+                  <input type="radio" name="radio2" id="radio18" value="radio2" />
+                否</td>
+                    <td class="left_title_1">&nbsp;</td>
+                    <td>&nbsp;</td>
+                  </tr>
+                    <tr>
+                    <td class="left_title_2">科研评级</td>
+                    <td colspan="3">&nbsp;</td>
+                  </tr>
+                    <tr>
+                    <td class="left_title_1">有无相关应用案例</td>
+                    <td><input type="radio" name="radio" id="radio19" value="radio" />
+                是
+                  <input type="radio" name="radio2" id="radio20" value="radio2" />
+                否</td>
+                    <td class="left_title_1">是否学科带头人</td>
+                    <td><input type="radio" name="radio" id="radio21" value="radio" />
+                是
+                  <input type="radio" name="radio2" id="radio22" value="radio2" />
+                否</td>
+                  </tr>
+                </table>
+              
+              <table border="0" cellpadding="3" cellspacing="1" class="table_style party2"  style="display:none">
+              <tr>
+                <td width="20%" class="left_title_2">活动参加记录</td>
+                <td colspan="3">&nbsp;</td>
+              </tr>
+              <tr>
+                <td class="left_title_1">Tradeshow and Conference Leads</td>
+                <td width="30%">&nbsp;</td>
+                <td width="20%" class="left_title_1">&nbsp;</td>
+                <td>&nbsp;</td>
+              </tr>
+              <tr>
+                <td class="left_title_1">Seminar Leads</td>
+                <td>&nbsp;</td>
+                <td class="left_title_1">&nbsp;</td>
+                <td>&nbsp;</td>
+              </tr>
+              <tr>
+                <td class="left_title_1">Mentor of Senior Design Contest</td>
+                <td>&nbsp;</td>
+                <td class="left_title_1">&nbsp;</td>
+                <td>&nbsp;</td>
+              </tr>
+              <tr>
+                <td class="left_title_1">Mentor of VI Contest</td>
+                <td>&nbsp;</td>
+                <td class="left_title_1">&nbsp;</td>
+                <td>&nbsp;</td>
+              </tr>
+              <tr>
+                <td class="left_title_1">LabVIEW Training</td>
+                <td>&nbsp;</td>
+                <td class="left_title_1">&nbsp;</td>
+                <td>&nbsp;</td>
+              </tr>
+              <tr>
+                <td class="left_title_1">CLAD / CLD</td>
+                <td>&nbsp;</td>
+                <td class="left_title_1">&nbsp;</td>
+                <td>&nbsp;</td>
+              </tr>
+              <tr>
+                <td class="left_title_1">Textbook</td>
+                <td>&nbsp;</td>
+                <td class="left_title_1">&nbsp;</td>
+                <td>&nbsp;</td>
+              </tr>
+              <tr>
+                <td class="left_title_1">Courseware</td>
+                <td>&nbsp;</td>
+                <td class="left_title_1">&nbsp;</td>
+                <td>&nbsp;</td>
+              </tr>
+              
+            </table>
+              </div>
+            
+            
+            
+          </div>
+          </div>
+          
+          
+          
+
+      </div>
+        </td>
+    </tr>
+  </table>
+  
+
+</div>
+</body>
+</html>

@@ -1,0 +1,76 @@
+
+.go_change{ cursor:pointer;}
+
+
+
+
+
+
+.intro{ background-image:url(/work/kd/images/intro_bg.jpg); width:775px; height:522px; background-repeat:no-repeat; margin:1px 0 0 167px; display:none;}
+.close1{ width:45px; height:26px;margin: 0 0 0 680px; cursor:pointer;}
+.intro_bt{ width:471px; height:53px; margin:0}
+.intro_content{ width:403px; height:310px; margin:12px 0 0 350px;}
+.intro_more{ width:115px; height:28px; margin:8px 0 0 600px; cursor:pointer;}
+
+
+
+.surrounding{ background-image:url(/work/kd/images/surrounding_bg.jpg); width:775px; height:522px; background-repeat:no-repeat; margin:1px 0 0 167px; display:none;}
+.surrounding_bt{ width:471px; height:53px; margin:0}
+.surrounding_content{ width:403px; height:310px; background-color:#0033FF; margin:12px 0 0 350px;}
+.surrounding_more{ width:115px; height:28px; margin:50px 0 0 600px; cursor:pointer;}
+
+
+
+.year{ background-image:url(/work/kd/images/year_bg.jpg); width:775px; height:522px; background-repeat:no-repeat; margin:1px 0 0 167px; display:none;}
+.year_bt{ width:471px; height:53px; margin:0}
+.go4{ margin:10px; 0 0 30px;}
+#go_abc,#go_la,#go_hhh,#go_esl{ cursor:pointer; width:56px; height:70px;}
+
+
+.tercel{ background-image:url(/work/kd/images/tercel_bg.jpg); width:775px; height:522px; background-repeat:no-repeat; margin:1px 0 0 167px; display:none;}
+.tercel_bt{ width:471px; height:53px; margin:0}
+#go_sc,#go_pmc,#go_rh{ cursor:pointer; width:56px; height:70px;}
+
+
+.counselor{ background-image:url(/work/kd/images/counselor_bg.jpg); width:775px; height:522px; background-repeat:no-repeat; margin:1px 0 0 167px; display:none;}
+.counselor_bt{ width:471px; height:53px; margin:0}
+.counselor_content{ width:403px; height:310px; background-color:#0033FF; margin:12px 0 0 350px;}
+.counselor_more{ width:115px; height:28px; margin:-28px 0 0 625px; cursor:pointer;}
+.gw_link{ margin:20px auto auto 22px}
+#gw_go{ cursor:pointer;}
+
+.teacher{ background-image:url(/work/kd/images/teacher_bg.jpg); width:775px; height:522px; background-repeat:no-repeat; margin:1px 0 0 167px; display:none;}
+.teacher_bt{ width:471px; height:53px; margin:0}
+.teacher_content{ width:403px; height:310px; background-color:#0033FF; margin:12px 0 0 350px;}
+.teacher_more{ width:115px; height:28px; margin:-28px 0 0 625px; cursor:pointer;}
+.sz_link{ margin:20px auto auto 22px}
+#sz_go{ cursor:pointer;}
+
+
+
+.eidos{ background-image:url(/work/kd/images/eidos_bg.jpg); width:775px; height:522px; background-repeat:no-repeat; margin:1px 0 0 167px; display:none;}
+.eidos_bt{ width:471px; height:53px; margin:0}
+
+
+.feature{ background-image:url(/work/kd/images/feature_bg.jpg); width:775px; height:522px; background-repeat:no-repeat; margin:1px 0 0 167px; display:none;}
+.feature_bt{ width:471px; height:53px; margin:0}
+
+
+
+
+.subscribe{ background-image:url(/work/kd/images/subscribe_bg.jpg); width:775px; height:522px; background-repeat:no-repeat; margin:1px 0 0 167px; color:#505050;}
+.subscribe_form{ width:380px; margin:76px 0 0 370px;}
+.subscribe_form table{ line-height:30px;}
+.username,.sex,.age,.date,.p_name,.tel,.email,.party{ margin:0; padding:0 } 
+.required{ width:110px;}
+
+
+
+
+.username{ float:left;}
+.sex{ float:left;}
+.age{ float:left}
+.date{ float:left;}
+.tj{ width:119px; height:28px; margin:35px auto auto 229px; }
+#button{ width:119px; height:28px; background-image:url(/work/kd/images/tj.jpg); background-repeat:no-repeat; border: 0 solid black; cursor:pointer;}
+.tj button{ width:119px; height:28px; background-image:url(/work/kd/images/tj.jpg); background-repeat:no-repeat; border: 0 solid black; cursor:pointer;}

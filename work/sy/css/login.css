@@ -1,0 +1,26 @@
+@charset "utf-8";
+/*全局*/
+body { margin:0; padding:0; font-size:12px; font-family:"微软雅黑", "宋体", Verdana, Arial; width:100%; text-align:center; color:#666; background:url(/work/sy/images/bg.png) repeat-x #BFDFF6; }
+img { border:0; }
+div,table, p, u, em, h1, h2, h3, h4, h5, h6, ul, ol, li { font-size:12px; font-family:"微软雅黑", "宋体", Arial, Verdana; color:#666; margin:0; padding:0; border:0; font-weight:lighter; }
+span{ padding:0; margin:0;}
+a { text-decoration:none; }
+a:hover { text-decoration:underline; }
+a img { opacity:1; filter: alpha(opacity=100); }
+a:hover img { opacity: 0.9; filter: alpha(opacity=90); }
+ul, li { list-style:none; }
+.clear { clear:both; }
+
+
+
+.login_index{  background:url(/work/sy/images/login_bg.jpg) no-repeat; text-align:left; width:661px; height:200px; border-radius:7px; -moz-border-radius:7px; -webkit-border-radius:7px; padding-top:90px; box-shadow:5px 5px 12px #000; -moz-box-shadow:5px 5px 12px #000; -webkit-box-shadow:5px 5px 12px #000; top:50%; left:50%; position:absolute; margin-left:-330px; margin-top:-165px;  }
+
+.login_table{ margin:0px auto auto 40px;}
+.login_table tr td{ height:38px; line-height:38px; padding-left:10px; font-size:13px; color:#5886aa}
+.ck1{ vertical-align:middle; margin-bottom:2px;}
+.text1{ background:url(/work/sy/images/text1.jpg) repeat-x; height:22px; line-height:22px; padding-left:2px; width:158px; border:1px solid #adb9c2;color:#5886aa}
+.btn1{ margin-right:5px; background:url(/work/sy/images/btn.jpg) no-repeat; height:24px; width:65px; border:0px solid #fff; cursor:pointer}
+
+
+
+.footer{ color:#2377a6; margin:60px auto auto auto; text-align:center}

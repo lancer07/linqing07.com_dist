@@ -1,0 +1,103 @@
+<script type="text/javascript">
+function MM_popupMsg(msg) { //v1.0
+  alert(msg);
+}
+</script>
+<script type="text/javascript" src="/work/sy/Scripts/jquery-1.6.min.js"></script>
+<script>
+$(document).ready(function(){
+
+$('.nav_menu>ul>li>ul').find('li:has(ul:not(:empty))>a').append("<span class='arrow'>></span>");
+$(".nav_menu>ul>li").live('mouseover',function(){  
+$(".nav_menu ul li:not(this)").removeClass("nav_menu_ul_li_hover");
+$(this).addClass("nav_menu_ul_li_hover");
+$(this).children('ul').show();
+}).bind('mouseleave',function(){
+$(this).children('ul').hide();   
+});   
+t
+$(".nav_menu").live('mouseleave',function(){
+$(this).children("ul").children("li").removeClass("nav_menu_ul_li_hover");
+});	
+
+$(".sub_menu").live('mouseleave',function(){
+$(this).parent("li").removeClass("nav_menu_ul_li_hover");
+});	
+});
+
+
+
+</script>
+
+
+<table width="900" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td width="313" height="56" rowspan="2" valign="top" ><a href="index.html"><img src="/work/sy/images/logo.jpg" /></a></td>
+    <td width="587" height="24" align="right"><a href="admin/index.html" target="_blank">会员控制中心</a> - <a href="login.html">登录</a> - <a href="#">企业邮箱</a> - <a href="SiteMap.html">网站地图</a> - <a href="#">收藏本站</a></td>
+  </tr>
+  <tr>
+    <td align="right" valign="top"><span>
+      <input type="text" name="textfield" id="textfield" />
+      <a href="#"><img src="/work/sy/images/search.jpg" width="24" height="23" /></a></span></td>
+  </tr>
+</table>
+<div class="nav_menu">
+  <ul>
+    <li> <a href="index.html">首页</a> </li>
+    <li> <a href="#">关于我们</a>
+      <ul class="sub_menu">
+        <li><a href="info.html">公司简介</a></li>
+        <li><a href="#">企业文化</a></li>
+        <li><a href="#">企业荣誉</a></li>
+        <li><a href="#">联系方式</a></li>
+        <li><a href="#">组织架构</a></li>
+        <li><a href="manager.html">高级管理人员</a></li>
+        <li><a href="Pic-List.html">企业图片</a></li>
+      </ul>
+    </li>
+    <li> <a href="#">新闻动态</a>
+      <ul class="sub_menu">
+        <li><a href="news-list.html">集团新闻</a></li>
+        <li><a href="#">公司新闻</a></li>
+        <li><a href="#">党政信息</a></li>
+      </ul>
+    </li>
+    <li><a href="#">信息交流</a>
+        <ul class="sub_menu">
+        <li><a href="NewsPaper-List.html">报刊</a></li>
+        <li><a href="notice.html">公告</a></li>
+        <li><a href="#">研发动态</a></li>
+        <li><a href="apply.html">活动报名</a></li>
+        </ul>   
+    </li>
+
+    <li><a href="#">内部制度</a>
+        <ul class="sub_menu">
+        <li><a href="#">人事制度</a></li>
+        <li><a href="#">财务制度</a></li>
+        <li><a href="#">IT制度</a></li>
+        <li><a href="#">实验室制度</a></li>
+        <li><a href="#">消防安全制度</a></li>
+        <li><a href="#">行政制度</a></li>
+      </ul>  
+    </li>
+
+    <li><a href="#">技术中心</a>
+      <ul class="sub_menu">
+        <li><a href="#">新药速递</a></li>
+        <li><a href="#">医药前沿</a></li>
+        <li><a href="#">临床进展</a></li>
+        <li><a href="#">产业讯息</a></li>
+      </ul>
+    </li>
+    <li><a href="#">下载中心</a>
+      <ul class="sub_menu">
+        <li><a href="#">表单</a></li>
+        <li><a href="NewsPaper-List.html">报刊</a></li>
+        <li><a href="#">资料文献</a></li>
+        <li><a href="#">软件</a></li>
+      </ul>
+    </li>
+    <li><a href="#" onClick="MM_popupMsg('暂未开通')">论坛</a></li>
+  </ul>
+</div>

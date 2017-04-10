@@ -1,0 +1,98 @@
+.SubMain{  float:left; width:960px; background:url(/work/smsg/images/submainbg.jpg) no-repeat bottom #e8e1b8;  }
+
+
+
+
+.SubMainLeft{ float:left; width:183px; margin-top:30px; margin-right:10px;  }
+
+
+
+
+
+
+.SubMainLeft strong{ margin-left:20px; }
+
+.LefeMenuBorder{background:url(/work/smsg/images/leftmenubottom.gif) no-repeat bottom right;  padding-bottom:85px; position:absolute; margin-left:-9px; z-index:1000; width:183px;  }
+
+
+.LeftMenu{ background:url(/work/smsg/images/leftmenutop.gif) no-repeat top left;  margin-left:2px; height:193px;  }
+.LeftMenu dt{ font-size:18px; padding-top:25px; margin-left:22px; color:#FFF; font-weight:bold;margin-bottom:15px; letter-spacing:2px;}
+.LeftMenu dd a{ padding-left:24px; display:block; font-size:14px; height:31px; color:#36200a; line-height:23px; }
+
+.LeftMenu dd a.Now{background:url(/work/smsg/images/ddbg.gif) no-repeat;color:#FFF; text-decoration:none}
+
+.LeftMenu dd ul{ margin-top:5px;width:161px; overflow-x:hidden}
+.LeftMenu dd ul li{ width:161px; height:21px; line-height:21px; margin-bottom:5px;}
+.LeftMenu dd ul li a{  width:161px; color:#553919; font-size:12px; display:block; height:22px;}
+.LeftMenu dd ul li a:hover{ font-weight:bold;background:url(/work/smsg/images/leftmenulibg.jpg) repeat-y; text-decoration:none}
+.LeftMenu dd ul li a.Now{ font-weight:bold;background:url(/work/smsg/images/leftmenulibg.jpg) repeat-y; text-decoration:none;color:#553919}
+
+
+
+
+.SubMainRight{ float:left; padding-top:45px;  width:764px;  min-height:807px; padding-bottom:150px;}
+
+
+.SubTitle{font-weight:bold; height:24px; line-height:25px; padding-right:140px; margin-top:10px;color:#36200a; font-size:13px; clear:both}
+
+.Crumbs{ color:#36200a; margin-left:30px; width:400px;}
+
+.SubContent p{ line-height:22px; color:#391F08; margin:5px 80px 5px 5px;}
+
+
+
+
+/*咨询中心*/
+
+.FirstNews{ float:left;margin-bottom:20px;}
+.FirstNewsPic{ float:left;width:208px; height:136px; border:1px solid #999}
+.FirstNewsPic img{ width:208px; height:136px;}
+
+
+.FirstNewsRight{ float:left; width:417px; margin-left:20px;}
+.FirstNewsRight h1{ height:24px; line-height:22px;  padding-left:5px; color:#36200a; font-size:13px;}
+.FirstNewsRight h2{ color:#33240d; line-height:22px; font-weight:bold; margin:9px 0 7px 0;}
+.FirstNewsRight p{ line-height:22px; color:#371e08; margin-bottom:10px;}
+
+
+
+.NewsList{ clear:both; width:647px; border-top:1px dashed #36200b; }
+.NewsList li{ line-height:39px; text-align:right; color:#947219; border-bottom:1px dashed #36200b }
+.NewsList li a{ float:left; color:#36200b}
+
+
+
+
+
+
+
+
+
+
+.CommonTable{ margin:30px 50px 30px 30px; clear:both}
+.CommonTable tr td{ line-height:22px;}
+
+.CommonTable caption{ text-align:left; color:#36200a; font-weight:bold; line-height:30px; margin-bottom:15px;}
+.CommonTable strong{color:#36200a}
+.CommonTable input,.CommonTable textarea{ margin-left:10px; margin-right:2px; margin-bottom:-2px;}
+.CommonTable textarea{ width:320px;}
+.Txt{ border:1px solid #a8acad; background:url(/work/smsg/images/txtbg.gif) #FFF repeat-x top left; padding:2px}
+
+
+.hr1{ height:1px; border-bottom:1px dashed #3f2911; margin:15px 80px 0px 30px;}
+
+
+.ListBlock{ float:left; display:inline; margin:10px 0px 20px 30px; background:url(/work/smsg/images/listblock.jpg) no-repeat; width:298px; height:166px;}
+.ListPic{ margin:23px; float:left}
+.ListContent{ float:left; margin-right:20px; margin-top:35px; width:146px;}
+.ListContent a{ display:block; font-weight:bold; color:#391F08; line-height:20px; }
+.ListContent p{ line-height:15px; color:#767676; margin:5px auto;}
+
+
+.VideoList{ float:left; display:inline; margin:0 50px 40px 20px; width:280px;}
+.VideoList p{ line-height:22px; height:22px; color:#443321; font-size:14px;}
+
+.VideoMain{ width:543px; margin:0px auto auto 90px;}
+.VideoMain p{ text-align:center; line-height:40px;color:#443321; font-size:14px;}
+
+

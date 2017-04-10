@@ -1,0 +1,5 @@
+/* CSS Document */
+
+.smallSearch { float: left; width: 42px; height: 19px; text-indent: -9999px; border: 0; cursor: pointer; background: url(/work/zj/assets/images/searchbtn.png) no-repeat; }
+.bigSearch { float: left; width: 58px; height: 26px; line-height: 20px; text-align: center; border: 0; cursor: pointer; background: url(/work/zj/assets/images/searchBtnBig.jpg) no-repeat; color: #595757 }
+.loginBtn { background: url(/work/zj/assets/images/loginBtn.jpg) no-repeat; width: 53px; height: 21px; line-height: 21px; cursor: pointer; border: 0; color: #FFF; }

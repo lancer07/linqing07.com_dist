@@ -1,0 +1,169 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>上海交大昂立股份有限公司</title>
+<script src="/work/al/assets/js/jquery-1.4.4.min.js"></script>
+<script src="/work/al/assets/js/jquery-ui-1.8.21.custom.min.js"></script>
+<script src="/work/al/assets/js/ui/jquery.ui.dialog.min.js"></script>
+<script src="/work/al/assets/js/alertModal.js"></script>
+<!--[if IE 6]>
+	<script type="text/javascript" src="/work/al/assets/js/DD_belatedPNG.js" ></script>
+<![endif]-->
+<link rel="stylesheet" href="/work/al/assets/css/import.css"/>
+</head>
+<body>
+<div class="main subpage">
+	<div class="top">
+		<div class="logo"> <a href="index.html"><img src="/work/al/assets/images/logo.jpg" width="276" height="50" alt="上海交大昂立股份有限公司" /></a> </div>
+		<div class="topRight">
+			<div class="topBar"><a href="#loginModal" class="modalLink">登录</a> | <a href="#registerModal" class="modalLink">注册</a></div>
+				
+			<div class="nav">
+				<ul>
+					<li><a href="index.html">首页</a></li>
+					<li><a href="content.html">比赛内容</a></li>
+					<li><a href="rule.html">活动细则</a></li>
+					<li class="last"><a href="list.html">获奖名单</a></li>
+				</ul>
+			</div>
+			<div class="clearfix"></div>
+		</div>
+		<div class="clearfix"></div>
+	</div>
+	
+	<h1>奥运知识竞赛题 ：</h1>
+	<div class="testBox">
+		<form name="form1" method="post" action="">
+			<dl>
+				<dt>1、奥运五环的颜色分别是什么？</dt>
+				<dd>
+					<input type="checkbox" name="checkbox1" id="checkbox1">
+					<label for="checkbox1">黑蓝白红黄</label>
+				</dd>
+				<dd>
+					<input type="checkbox" name="checkbox1" id="checkbox2">
+					<label for="checkbox2">绿白红蓝黑</label>
+				</dd>
+				<dd>
+					<input type="checkbox" name="checkbox1" id="checkbox3">
+					<label for="checkbox3">蓝绿黄黑红</label>
+				</dd>
+			</dl>
+			<dl>
+				<dt>2、中国第一次正式参加奥运会是哪一年？</dt>
+				<dd>
+					<input type="checkbox" name="checkbox2" id="checkbox4">
+					<label for="checkbox4">1928  阿姆斯特丹</label>
+				</dd>
+				<dd>
+					<input type="checkbox" name="checkbox2" id="checkbox5">
+					<label for="checkbox5">1932  洛杉矶</label>
+				</dd>
+				<dd>
+					<input type="checkbox" name="checkbox2" id="checkbox6">
+					<label for="checkbox6">1936 柏林</label>
+				</dd>
+			</dl>
+			<dl>
+				<dt>3、中国第一块奥运会金牌获得者是谁？</dt>
+				<dd>
+					<input type="checkbox" name="checkbox3" id="checkbox7">
+					<label for="checkbox7">许海峰</label>
+				</dd>
+				<dd>
+					<input type="checkbox" name="checkbox3" id="checkbox8">
+					<label for="checkbox8">刘长春</label>
+				</dd>
+				<dd>
+					<input type="checkbox" name="checkbox3" id="checkbox9">
+					<label for="checkbox9">李宁</label>
+				</dd>
+			</dl>
+			<dl>
+				<dt>4、2012年伦敦奥运会的口号是？</dt>
+				<dd>
+					<input type="checkbox" name="checkbox4" id="checkbox10">
+					<label for="checkbox10">成长一代人</label>
+				</dd>
+				<dd>
+					<input type="checkbox" name="checkbox4" id="checkbox11">
+					<label for="checkbox11">激励一代人</label>
+				</dd>
+				<dd>
+					<input type="checkbox" name="checkbox4" id="checkbox12">
+					<label for="checkbox12">梦想一代人</label>
+				</dd>
+			</dl>
+			<dl>
+				<dt>5、昂立多邦胶囊曾经被评为哪两届奥运会中国体育代表团首选专用保健品？</dt>
+				<dd>
+					<input type="checkbox" name="checkbox5" id="checkbox13">
+					<label for="checkbox13">2000年悉尼、2004年雅典</label>
+				</dd>
+				<dd>
+					<input type="checkbox" name="checkbox5" id="checkbox14">
+					<label for="checkbox14">2004年雅典、2008年北京</label>
+				</dd>
+				<dd>
+					<input type="checkbox" name="checkbox5" id="checkbox15">
+					<label for="checkbox15">1992年巴塞罗那、1996年亚特兰大</label>
+				</dd>
+			</dl>
+			<div class="row">
+				<button type="submit">完成竞猜</button>
+			</div>
+		</form>
+	</div>
+	<div class="footer"> <em>上海交大昂立股份有限公司  SHANGHAI JIAO DA ONLLY CO.,LTD</em>
+		<ul>
+			<li><a href="index.html">首页</a></li>
+			<li><a href="content.html">比赛内容</a></li>
+			<li><a href="rule.html">活动细则</a></li>
+			<li><a href="list.html">获奖名单</a></li>
+		</ul>
+		<div class="clearfix"></div>
+	</div>
+</div>
+<div id="loginModal" class="alertModal">
+	<form name="form1" method="post" action="">
+		<div class="row">
+			<label for="textfield">用户名</label>
+			<input type="text" name="textfield" id="textfield">
+		</div>
+		<div class="row">
+			<label for="textfield2">密码</label>
+			<input type="password" name="textfield2" id="textfield2">
+		</div>
+	</form>
+</div>
+<div id="registerModal" class="alertModal">
+	<form name="form2" method="post" action="">
+		<div class="row">
+			<label for="textfield3">用户名</label>
+			<input type="text" name="textfield3" id="textfield3">
+		</div>
+		<div class="row">
+			<label for="textfield4">密码</label>
+			<input type="password" name="textfield4" id="textfield4">
+		</div>
+		<div class="row">
+			<label for="textfield5">确认密码</label>
+			<input type="password" name="textfield5" id="textfield5">
+		</div>
+		<div class="row">
+			<label for="textfield6">身份证号</label>
+			<input type="text" name="textfield6" id="textfield6">
+		</div>
+		<div class="row">
+			<label for="textfield7">电话</label>
+			<input type="text" name="textfield7" id="textfield7">
+		</div>
+		<div class="row">
+			<label for="textfield8">邮箱</label>
+			<input type="text" name="textfield8" id="textfield8">
+		</div>
+	</form>
+</div>
+</body>
+</html>

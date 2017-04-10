@@ -1,0 +1,63 @@
+body { background: url(/work/al/assets/images/bg.jpg) repeat-x left top #ffffff; font-family: "微软雅黑", Verdana, Geneva, sans-serif }
+.main { width: 1100px; margin: 0 auto; }
+.index { height: 721px; background: url(/work/al/assets/images/focus.jpg) no-repeat; position: relative }
+.subpage { background: url(/work/al/assets/images/cloud.png) no-repeat 360px 0; }
+.top { padding-top: 25px; height: 50px; position: relative; z-index: 1 }
+.logo { margin: 0 0 0 35px; float: left; _display: inline }
+.topRight { margin: 0 0 0 150px; width: 470px; float: left; _display: inline; text-align: right; }
+.topBar { margin-bottom: 8px; padding-right: 18px; text-align: right; height: 20px; line-height: 20px; color: #FFF }
+.topBar a { color: #FFF; margin: 0 5px; }
+.topBar p { text-align: left; padding-left: 10px; }
+.nav { background: url(/work/al/assets/images/navLeft.png) no-repeat left center; height: 29px; float: left; }
+.nav ul { margin-left: 15px; float: left; padding: 4px 0; background: url(/work/al/assets/images/navRight.png) no-repeat right center; height: 21px; _display: inline }
+.nav ul li { display: inline; padding: 0px 27px; border-right: 1px solid #FFF }
+.nav ul li.last { border: 0; padding-right: 37px; }
+.nav ul li a { color: #FFF; font-size: 14px; }
+.nav ul li a:hover { text-decoration: none; color: #7B3E00 }
+.backToIndex { margin: 0px 0 0 30px; _display: inline; }
+.subpageNav { margin: 15px 20px 0 0 }
+.index .notice { margin: 516px 0 0 100px; width: 170px; color: #da9929; text-align: center }
+.index .notice dt { font-size: 13px; }
+.index .notice dd em { font-size: 14px; }
+.index .notice dd.line { border-bottom: 1px solid #da9929; height: 1px; overflow: hidden; margin: 5px 0 }
+.ksjc { display: block; text-indent:-9999px; position: absolute; width: 172px; height: 203px; left: 682px; top: 487px; background:url(/work/al/assets/images/ksjc.png) }
+.zxdc{display: block; text-indent:-9999px; position: absolute; width: 132px; height: 156px; left: 840px; top: 480px; background:url(/work/al/assets/images/zxdc.png) }
+
+
+.subpage h1 { margin: 35px 0 -20px 75px; color: #f8b380; font-size: 30px; clear: both; }
+
+.subpage h2 { font-size: 20px; color: #e5721d; }
+.ruleBox { padding: 75px 105px 30px 105px; background: url(/work/al/assets/images/rulebox.png) no-repeat center top; min-height: 545px; _height: 545px }
+
+.ruleBox em, .ruleBox a { color: #ae5e10; }
+.ruleBox dl { line-height: 26px; color: #494949 }
+.ruleBox dl dt { margin-top: 25px; }
+.ruleBox dl dd { padding-left: 15px; }
+
+.testBox { width: 846px; margin: 0 auto; padding: 75px 105px 30px 105px; background: url(/work/al/assets/images/testbox.png) no-repeat center top; min-height: 567px; _height: 567px }
+
+.testBox dl { margin-bottom: 20px; }
+.testBox dl dt { color: #f9922d; margin-bottom: 7px; }
+.testBox dl dd { line-height: 27px; }
+.testBox dl dd input { vertical-align: middle }
+.testBox dl dd label { margin-left: 3px; }
+.testBox .row { text-align: center }
+.testBox .row button { margin: 0 auto; background: url(/work/al/assets/images/btn.jpg) no-repeat; width: 144px; height: 50px; border: 0; cursor: pointer; display: block; text-indent: -9999px; }
+.list { margin: -50px auto 50px auto; padding-top: 70px; text-align: center; background: url(/work/al/assets/images/listBg.png) no-repeat center top; width: 646px; min-height: 800px; _height: 800px }
+.list h1 { margin: 10px 0 30px 0; color: #e19054; font-size: 30px; color: #FF8A00 }
+.list em { color: #FF8A00 }
+.list dl dt { margin-bottom: 15px; font-size: 18px; }
+.list dl dd, .list dl dd p { margin-bottom: 15px; font-size: 14px; color: #FF8A00 }
+.list dl dd div.scroll { width: 270px; height: 160px; margin: 0 auto; padding: 10px; border: 1px solid #CCC; }
+.list dl dd div.scroll .scrollMain { height: 160px; overflow: hidden; position: relative }
+.banner { height: 556px; background: url(/work/al/assets/images/banner.png) }
+.alertModal { display: none; }
+.alertModal form { margin: 30px; }
+.alertModal .row { margin-bottom: 10px; line-height: 30px; }
+.alertModal .row input { border: 1px solid #666; height: 24px; width: 200px; }
+.alertModal label { display: inline-block; width: 80px; margin-right: 20px; text-align: right }
+.footer { height:30px; margin: 48px 35px 30px 35px; color: #9e9e9e }
+.footer a { color: #9e9e9e }
+.footer em { float: left }
+.footer ul { float: right; background: url(/work/al/assets/images/line.gif) no-repeat right center }
+.footer ul li { display: inline; padding: 0 20px; background: url(/work/al/assets/images/line.gif) no-repeat left center }

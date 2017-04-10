@@ -1,0 +1,30 @@
+/* CSS Document */
+body { background: url(/work/zj/assets/images/layout/bg.jpg) repeat-x top left; color: #727171; font-size: 0.75em }
+a { color: #727171; text-decoration: none }
+a:hover { color: #c9191d; }
+.page { width: 930px; margin: 0 auto; }
+.header { text-align: right; line-height: 26px; font-size:1em; font-weight:normal}
+.logo { padding-top: 40px; height: 104px; background: url(/work/zj/assets/images/map.jpg) no-repeat top center }
+.nav { height: 36px; border: 1px solid #e3e4e4; border-bottom: 0; background: url(/work/zj/assets/images/layout/nav.jpg) repeat-x left top }
+.nav li { float: left; width: 88px; text-align: center; height: 30px; position: relative; background: url(/work/zj/assets/images/layout/navli.jpg) no-repeat right top }
+.nav li.first { padding-left: 20px; }
+.nav li.last { background: none }
+.nav li a { display: inline-block; line-height: 30px; }
+.nav li a.cur { color: #c9191d }
+.nav li div { display: none }
+.subNav { clear: both; height: 30px; border-right: 1px solid #d6d7d7; border-left: 1px solid #d6d7d7; }
+.subNav a { padding-left: 9px; padding-right: 9px; border-right: 1px solid #666464 }
+.subNav a.last{ border:0;}
+.ups { color: #ff0000; }
+.downs { color: #009944; }
+.main { border: 1px solid #d6d7d7; width:928px; border-top: 0px; margin-bottom: 40px; }
+.friendLink { background: #f3f3f3; text-align: right; padding: 5px; margin: 0 10px 10px 10px; margin:10px\9; margin:0 10px 10px 10px\0; clear:both }
+.friendLink select { width: 240px; }
+.footer { margin: 10px 10px 20px 10px; }
+.copyright { float: left }
+.commonLinks { float: right }
+
+.leftCol { margin-left: 12px; float: left; width: 199px;}
+.centerCol { margin-left: 12px; float: left; width: 434px; }
+.rightCol { margin-left: 12px; float: left; width: 247px; }
+.rightAllCol{ margin:0 0 35px 12px; float:left; width:693px; min-height:600px;}

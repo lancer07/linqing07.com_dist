@@ -1,0 +1,8 @@
+User-agent: * 
+
+Disallow: /work/
+Disallow: /css/
+Disallow: /js/
+Disallow: /images/
+Disallow: /bigpic/
+Disallow: /demo/  

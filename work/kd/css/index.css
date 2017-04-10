@@ -1,0 +1,45 @@
+body{ margin:0; padding:0; font-size:12px; font-family:Verdana, Arial,宋体; text-align:center;}
+ul{ list-style-type:none;}
+#clear{ clear:both;}
+.index{ width:1003px; height:664px;background-image:url(/work/kd/images/bg3.jpg); background-repeat:no-repeat; margin:auto; text-align:left; overflow:hidden;}
+.menu td{ height:124px; }
+
+.menu1{ background-image:url(/work/kd/images/menu001.jpg); background-repeat:no-repeat; cursor:pointer;}
+.menu1_hover{ background-image:url(/work/kd/images/menu01.jpg); background-repeat:no-repeat; cursor:pointer;}
+
+.menu2{ background-image:url(/work/kd/images/menu002.jpg); background-repeat:no-repeat; cursor:pointer;}
+.menu2_hover{ background-image:url(/work/kd/images/menu02.jpg); background-repeat:no-repeat; cursor:pointer;}
+
+.menu3{ background-image:url(/work/kd/images/menu003.jpg); background-repeat:no-repeat; cursor:pointer;}
+.menu3_hover{ background-image:url(/work/kd/images/menu03.jpg); background-repeat:no-repeat; cursor:pointer;}
+
+.menu4{ background-image:url(/work/kd/images/menu004.jpg); background-repeat:no-repeat; cursor:pointer;}
+.menu4_hover{ background-image:url(/work/kd/images/menu04.jpg); background-repeat:no-repeat; cursor:pointer;}
+
+.menu5{ background-image:url(/work/kd/images/menu005.jpg); background-repeat:no-repeat; cursor:pointer;}
+.menu5_hover{ background-image:url(/work/kd/images/menu05.jpg); background-repeat:no-repeat; cursor:pointer;}
+
+.menu6{ background-image:url(/work/kd/images/menu006.jpg); background-repeat:no-repeat; cursor:pointer;}
+.menu6_hover{ background-image:url(/work/kd/images/menu06.jpg); background-repeat:no-repeat; cursor:pointer;}
+
+.menu7{ background-image:url(/work/kd/images/menu007.jpg); background-repeat:no-repeat; cursor:pointer;}
+.menu7_hover{ background-image:url(/work/kd/images/menu07.jpg); background-repeat:no-repeat; cursor:pointer;}
+
+img{ border:0}
+
+.l_n{ width:1000px; height:522px; margin:0px 0 0 0px; text-align:left;}
+.light{ width:724px; float:left; height:300px;}
+.notice{ width:193px; height:127px; margin:68px auto auto 52px; float:left; }
+.notice_title{ font-size:20px; font-weight:bolder; color:#FFFF00; text-align:center; padding:0 4px  0 4px}
+.notice_content{ font-size:12px; color:#FFFF66; margin:10px 11px 10px 11px; text-align:left; line-height:20px; letter-spacing:1px; }
+.notice img{ margin:-12px auto auto -6px; border:0; }
+
+
+.service1{ margin:0;_margin-top:-110px; width:200px; height:90px; text-align:left; padding-left:24px; z-index:5;}
+.service1 ul{ margin-top:-110px;_margin-top:0px;}
+.service1 li{ height:28px;}
+.service1 li div{ height:23px; width:81px; cursor:pointer;}
+
+
+
+.footer1{ width:1003px;font-size:12px; color:#055c03; text-align:left; margin:-28px auto auto 320px;_margin:-38px auto auto 320px;line-height:16px; z-index:5;}
