@@ -1,0 +1,185 @@
+/* CSS Document */
+body {
+	background: url(../images/bg.png);
+}
+.header {
+	border-top: 8px solid #383838;
+	background: #fff;
+	height: 72px;
+	box-shadow: 0 7px 10px #ccc;
+	position:relative;
+}
+.header .logo {
+	background: url(../images/logo.png) no-repeat scroll left center transparent;
+	font-family: "Comic Sans MS", cursive;
+	padding-left: 80px;
+	margin-left: 10px;
+	color: #23a9f0;
+	height: 67px;
+}
+.header .logo a {
+	color: #23a9f0;
+	font-size: 45px;
+}
+.header .logo a strong {
+	font-size: 25px;
+	color: #eab825;
+}
+.header a.home {
+	position:absolute;
+	right:10px;
+	top:25px;
+	width:70px;
+	height:25px;
+	line-height:25px;
+	text-align:center;
+	display:block;
+	color:#FFF;
+	background:#F90;
+	border:1px solid #FF5300;
+}
+.header a.home:hover{
+	background:#FF6317
+}
+.nav {
+	width: 90px;
+	position: absolute;
+	border: 1px solid #d3d3d3;
+	border-radius: 0 6px 6px 0;
+	background: #fff;
+	top: 100px;
+	left: 0;
+	padding: 7px 0;
+	box-shadow: 7px 7px 10px #ccc;
+}
+.nav li {
+	line-height: 32px;
+}
+.nav a {
+	padding-left: 25px;
+	color: #adadad;
+	display: block;
+	width: 75px;
+}
+.nav a:hover {
+	color: #fecd3a;
+}
+.nav li.cur a {
+	color: #111;
+	background: url(../images/arrow.png) no-repeat right center;
+}
+.main {
+	margin: 22px 0 0 120px;
+}
+.waterfall li {
+	background: #FFF;
+	border: 3px solid #fff;
+	box-shadow: 2px 2px 4px rgba(0,0,0,0.16);
+	min-height: 100px;
+	padding: 8px 8px 35px 8px;
+	width: 210px;
+	position: relative;
+}
+.waterfall li:hover {
+	border: 3px solid #FC3;
+}
+.waterfall li a {
+	color: #999;
+}
+.waterfall li:hover a {
+	color: #e2b327
+}
+.waterfall li p {
+	position: absolute;
+	bottom: 0px;
+	line-height: 30px;
+	width: 210px;
+}
+.waterfall li p a {
+	float: right;
+	width: 20px;
+	height: 20px;
+	margin-top: 5px;
+	display: inline-block;
+	text-indent: -3453px;
+	background-image: url(../images/icon.jpg);
+	background-repeat: no-repeat;
+}
+.waterfall li p a.download {
+	background-position: left top;
+}
+.waterfall li p a.download:hover {
+	background-position: left bottom;
+}
+.waterfall li p a.view {
+	background-position: right top;
+}
+.waterfall li p a.view:hover {
+	background-position: right bottom;
+}
+#to-top {
+	position: fixed;
+	z-index: 50;
+	bottom: 3px;
+	right: 10px;
+	cursor: pointer;
+	width: 50px;
+	height: 50px;
+	background: url(../../../images/top.gif) no-repeat left top;
+	display: none;
+	_display: none!important;
+}
+#to-top:hover {
+	background: url(../../../images/top.gif) no-repeat left bottom;
+}
+#to-top:hover {
+	background: url(../../../images/top.gif) no-repeat left bottom;
+}
+body.no-scroll {
+	overflow: hidden;
+}
+.black-bg {
+	display: none;
+	background: #000;
+	opacity: 0.7;
+	filter: alpha(opacity=70);
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	z-index: 9997;
+	top: 0;
+	left: 0;
+}
+.iframe-modal {
+	display: none;
+	z-index: 9998;
+	position: absolute;
+	border: 3px solid #000;
+	background: #fff;
+	width: 95%;
+	height: 400px;
+}
+.iframe-close-btn {
+	display: none;
+	background: #fff;
+	border-radius: 40px;
+	width: 40px;
+	height: 40px;
+	line-height: 20px;
+	border: 3px solid #000;
+	left: 95%;
+	top: 30px;
+	position: fixed;
+	cursor: pointer;
+	font-family: Verdana;
+	font-weight: bold;
+	color: #000;
+	z-index: 9999;
+	font-size: 20px;
+	text-align: center;
+}
+.iframe-close-btn:hover {
+	color: #fff;
+	border: 3px solid #fff;
+	background: #000
+}

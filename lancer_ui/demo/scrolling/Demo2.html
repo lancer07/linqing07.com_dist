@@ -1,0 +1,36 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>文字上下无间断滚动</title>
+</head>
+<body>
+    <div id="demo" onmouseover="clearInterval(timer)" onmouseout="timer=setInterval(mar,30)" style="overflow: hidden; height: 60px; width: 100px;">
+        <div id="demo1">
+            第一行<br>
+            第二行<br>
+            第三行<br>
+            第四行<br>
+            第五行<br>
+            第六行</div>
+        <div id="demo2">
+        </div>
+    </div>
+
+    <script type="text/javascript">
+        var t = getid("demo"), t1 = getid("demo1"), t2 = getid("demo2"), sh = getid("show"), timer;
+        t2.innerHTML = t1.innerHTML;
+        function mar()
+        {
+            if (t2.offsetTop <= t.scrollTop) t.scrollTop -= t1.offsetHeight;
+            else t.scrollTop++;
+        }
+        timer = setInterval(mar, 50);
+        function getid(id)
+        {
+            return document.getElementById(id);
+        }
+    </script>
+
+</body>
+</html>

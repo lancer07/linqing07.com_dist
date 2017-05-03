@@ -1,0 +1,115 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>piroBox v.1.0</title>
+    <link href="css_pirobox/pirobox.css" media="screen" rel="stylesheet" type="text/css" />
+
+    <script type="text/javascript" src="js/jquery1.2.6.js"></script>
+
+    <script type="text/javascript" src="js/piroBox.js"></script>
+
+    <!-- 
+
+    // you can choose:
+
+    pirobox.js(19 KB),
+     
+    pirobox_packed.js (9 KB),
+
+    pirobox_min.js (13 KB), 
+
+    the only thing that change is js weight \\
+
+    <script type="text/javascript" src="js/piroBox_packed.js"></script>
+    <script type="text/javascript" src="js/piroBox_min.js"></script>
+
+    -->
+
+    <script type="text/javascript">
+$(document).ready(function(){
+
+    <!--David this OPTIONS are for inside box navigation-->
+
+	$('.thumbs').piroBox({
+			border: 10,
+			borderColor : '#222', 
+			mySpeed: 700,  
+			bg_alpha: 0.3,
+			cap_op_start : 0.4,
+			cap_op_end: 0.8,
+			pathLoader : '#000 url(css_pirobox/ajax-loader.gif) center center no-repeat;', 
+			gallery : '.gallery_in li a', 
+			gallery_li : '.gallery_in li', 
+			next_class : '.next_in',
+			previous_class : '.previous_in'
+	});	
+	$('.thumbs').piroBox({
+	
+    <!--David this OPTIONS are for outside box navigation-->
+
+			border: 1, 
+			mySpeed: 700,
+			borderColor : '#444',  
+			bg_alpha: 0.5,
+			cap_op_start : 0.4,
+			cap_op_end: 0.8,
+			pathLoader : '#000 url(css_pirobox/ajax-loader.gif) center center no-repeat;', 
+			gallery : '.gallery li a', 
+			gallery_li : '.gallery li',
+			single : '.single  a',
+			next_class : '.next',
+			previous_class : '.previous'
+	});	
+});
+
+</script>
+
+</head>
+<body>
+    <h3 id="demos">
+        Image set (prev/next <span class="highlite">inside</span>)</h3>
+    <div class="gallery_in">
+        <ul>
+            <li><a href="images/1.jpg" title="">
+                <img src="images/1_s.jpg" alt="demo" width="200" height="139" /></a> </li>
+            <li><a href="images/2.jpg" title="Caption">
+                <img src="images/2_s.jpg" alt="demo" width="200" height="139" /></a> </li>
+            <li><a href="images/3.jpg" title="Caption">
+                <img src="images/3_s.jpg" alt="demo" width="200" height="139" /></a> </li>
+            <li><a href="images/4.jpg" title="Caption">
+                <img src="images/4_s.jpg" alt="demo" width="200" height="139" /></a> </li>
+        </ul>
+    </div>
+    <div style="float: left; width: 90%; margin-top: 20px;">
+        <h3>
+            Image set (prev/next <span class="highlite">outside</span>)</h3>
+    </div>
+    <div class="gallery">
+        <ul>
+            <li><a href="images/5.jpg" title="">
+                <img src="images/5_s.jpg" alt="demo" width="200" height="139" /></a> </li>
+            <li><a href="images/6.jpg" title="Caption">
+                <img src="images/6_s.jpg" alt="demo" width="200" height="139" /></a> </li>
+            <li><a href="images/7.jpg" title="Caption">
+                <img src="images/7_s.jpg" alt="demo" width="200" height="139" /></a> </li>
+            <li><a href="images/8.jpg" title="Caption">
+                <img src="images/8_s.jpg" alt="demo" width="200" height="139" /></a> </li>
+        </ul>
+    </div>
+    <div style="float: left; width: 90%; margin-top: 20px;">
+        <h3>
+            Single image</h3>
+    </div>
+    <div class="single_box">
+        <span class="single"><a href="images/9.jpg" title="Caption">
+            <img src="images/9_s.jpg" alt="demo" width="200" height="139" /></a> </span>
+    </div>
+    <div class="single_box">
+        <span class="single"><a href="images/10.jpg" title="Caption">
+            <img src="images/10_s.jpg" alt="demo" width="200" height="139" /></a> </span>
+    </div>
+    <div style="float: left; width: 90%; margin-top: 20px;">
+    </div>
+</body>
+</html>

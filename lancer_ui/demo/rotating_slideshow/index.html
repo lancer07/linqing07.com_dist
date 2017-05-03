@@ -1,0 +1,36 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+    <title>Lancer UI Demo</title>
+    <script src="http://www.linqing07.com/js/jquery-1.8.3.min.js"></script>
+    <script src="js/jquery.rotate.js"></script>
+    <script src="js/ll.ui.rotatingslide.1.0.0.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/ll.ui.rotatingslide.1.0.0.css" />
+
+</head>
+<body>
+
+<div id="slideShowContainer">
+    <div id="slideShow">
+    	<ul>
+        	<li><img src="images/photos/1.jpg" width="100%" alt="Fish" /></li>
+            <li><img src="images/photos/2.jpg" width="100%" alt="Ancient" /></li>
+            <li><img src="images/photos/3.jpg" width="100%" alt="Industry" /></li>
+            <li><img src="images/photos/4.jpg" width="100%" alt="Rain" /></li>
+        </ul>
+    
+    </div>
+    <a id="previousLink" href="#">&raquo;</a>
+    <a id="nextLink" href="#">&laquo;</a> 
+</div>
+
+<script>
+    $(function(){
+        ll.ui.rotatingSlide($('#slideShow'))
+    });
+</script>
+
+
+</body>
+</html>

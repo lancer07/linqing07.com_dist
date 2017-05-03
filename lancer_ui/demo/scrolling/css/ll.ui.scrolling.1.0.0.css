@@ -1,0 +1,6 @@
+﻿.ll_scroll { overflow: hidden; width: 100%; position: relative; margin: 15px 0 5px 0; padding: 10px 0; background: #eaeaea }
+.ll_scroll_main { float: left; width: 300%; }
+.ll_scroll ul{ margin: 0; padding: 0;float: left}
+.ll_scroll li { list-style: none; width: 155px; height: 96px; float: left; text-align: center; vertical-align: middle; }
+.ll_scroll_right,
+.ll_scroll_left{ float: left}

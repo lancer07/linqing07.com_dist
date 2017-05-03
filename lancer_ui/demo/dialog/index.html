@@ -1,0 +1,71 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Lancer UI Demo</title>
+
+<script src="js/ll.ui.dialog.1.0.0.js"></script>
+<link rel="stylesheet" type="text/css" href="css/ll.ui.dialog.1.0.0.css">
+
+</head>
+<body>
+	<button id="alert">alert</button>
+	<button id="error">error</button>
+	<button id="success">success</button>
+	<button id="info">info</button>
+	<button id="loading">loading</button>
+	<button id="confirm">confirm</button>
+	<button id="prompt">prompt</button>
+	<script>
+		document.getElementById("alert").onclick = function(){
+			ll.ui.dialog({
+				type:"alert",
+				title:"我是alert",
+				message:"我是内容"
+			})
+		}
+
+		document.getElementById("error").onclick = function(){
+			ll.ui.dialog({
+				type:"error",
+				title:"我是error",
+				message:"我是内容"
+			})
+		}
+		document.getElementById("success").onclick = function(){
+			ll.ui.dialog({
+				type:"success",
+				title:"我是success",
+				message:"我是内容"
+			})
+		}
+		document.getElementById("info").onclick = function(){
+			ll.ui.dialog({
+				type:"info",
+				title:"我是info",
+				message:"我是内容"
+			})
+		}
+		document.getElementById("loading").onclick = function(){
+			ll.ui.dialog({
+				type:"loading",
+				title:"我是loading",
+			})
+		}
+		document.getElementById("confirm").onclick = function(){
+			ll.ui.dialog({
+				type:"confirm",
+				title:"我是confirm"
+			})
+		}
+		document.getElementById("prompt").onclick = function(){
+			ll.ui.dialog({
+				type:"prompt",
+				title:"我是prompt",
+				message:"我是内容"
+			})
+		}
+
+	</script>
+</body>
+</html>

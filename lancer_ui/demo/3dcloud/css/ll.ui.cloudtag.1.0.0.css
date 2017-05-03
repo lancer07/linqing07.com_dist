@@ -1,0 +1,4 @@
+﻿.ll_cloudtag { position:relative; width:450px; height:450px; background:#24313d; }
+
+.ll_cloudtag a { position:absolute; top:0px; left:0px; color:#fff; font-weight:bold; text-decoration:none; padding: 3px 6px; }
+.ll_cloudtag a:hover { color:#FF0000; letter-spacing:2px;}

@@ -1,0 +1,17 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Lancer UI Demo</title>
+<script src="js/ll.ui.datepicker.1.0.0.js"></script>
+<link rel="stylesheet" type="text/css" href="css/ll.ui.datepicker.1.0.0.css">
+</head>
+<body>
+	<input type="text" id="date" style="width:100px" class="ll_date" />
+	<script>
+		document.getElementById("date").onfocus = function(){
+			ll.ui.datePicker(this)
+		}
+	</script>
+</body>
+</html>

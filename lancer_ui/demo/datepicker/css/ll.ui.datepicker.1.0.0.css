@@ -1,0 +1,25 @@
+
+.ll_date{ background: url(../images/datePicker.gif) no-repeat right center;}
+.ll_calender { width:170px; height:auto; font-size:12px; margin-right:14px; border:1px solid #397EAE; padding:1px}
+.ll_calender ul {list-style-type:none; margin:0; padding:0;}
+.ll_calender .day { background-color:#EDF5FF; height:20px;}
+.ll_calender .day li,.ll_calender .date li{ float:left; width:14%; height:20px; line-height:20px; text-align:center}
+.ll_calender li a { text-decoration:none; font-family:Tahoma; font-size:11px; color:#333}
+.ll_calender li a:hover { color:#f30; text-decoration:underline}
+.ll_calender li a.hasArticle {font-weight:bold; color:#f60 !important}
+.ll_calender .lastMonthDate, 
+.ll_calender .nextMonthDate {color:#bbb;font-size:11px}
+.ll_calender .selectThisYear a, 
+.ll_calender .selectThisMonth a{text-decoration:none; margin:0 2px; color:#000; font-weight:bold}
+.ll_calender .LastMonth, 
+.ll_calender .NextMonth{ text-decoration:none; color:#000; font-size:18px; font-weight:bold; line-height:16px;}
+.ll_calender .LastMonth { float:left;}
+.ll_calender .NextMonth { float:right;}
+.ll_calender .calenderBody {clear:both}
+.ll_calender .calenderTitle {text-align:center;height:20px; line-height:20px; clear:both}
+.ll_calender .today { background-color:#ffffaa;border:1px solid #f60; padding:2px}
+.ll_calender .today a { color:#f30; }
+.ll_calender .calenderBottom {clear:both; border-top:1px solid #ddd; padding: 3px 0; text-align:left}
+.ll_calender .calenderBottom a {text-decoration:none; margin:2px !important; font-weight:bold; color:#000}
+.ll_calender .calenderBottom a.closeCalender{float:right}
+.ll_calender .closeCalenderBox {float:right; border:1px solid #000; background:#fff; font-size:9px; width:11px; height:11px; line-height:11px; text-align:center;overflow:hidden; font-weight:normal !important}

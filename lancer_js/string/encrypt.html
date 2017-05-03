@@ -1,0 +1,283 @@
+<!doctype html>
+<html><!-- InstanceBegin template="/Templates/ll.dwt" codeOutsideHTMLIsLocked="false" -->
+<head>
+<meta charset="utf-8">
+<!-- InstanceBeginEditable name="doctitle" -->
+<title>string - encrypt - lancer javascript library</title>
+<!-- InstanceEndEditable -->
+<meta name="Keywords" content="lancer.js,简单易用javascript框架,初级javascript框架,轻量级javascript框架" >
+<meta name="Description" content="lancer.js是一个简单易用的轻量级javascript框架,lancer.js中封装了一些常用方法,简化了DOM操作,所以非常适合初级前端开发。" />
+<link rel="stylesheet" type="text/css" href="../assests/css/import.css">
+<link href="../../images/linqing.ico" rel="shortcut icon">
+<link rel="icon" href="../../images/linqing.gif" type="image/gif" />
+<script src="../../js/jquery-1.4.4.min.js"></script>
+<script src="../assests/js/lancer-1.3.5.js"></script>
+<script src="../assests/js/tree.js"></script>
+<script src="../assests/js/codeColor.js"></script>
+<script src="../assests/js/run.js"></script>
+<!-- InstanceBeginEditable name="head" -->
+<!-- InstanceEndEditable -->
+</head>
+<body>
+	<div class="mainBody">
+		<div class="header">
+			<h1 class="logo"><a href="../catalog/index.html">Lancer<em>.js</em><b>a light javascript library</b></a></h1>
+			<div class="download"> 	
+				<a href="../assests/js/lancer-1.3.5.js" target="_blank" >Download &nbsp;lancer-1.3.5.js</a> 
+				<a href="../assests/js/lancer-1.3.5.min.js" target="_blank" >Download &nbsp;lancer-1.3.5.min.js</a>
+			</div>
+		</div>
+		<div id="tree">
+			<h2><a href="../catalog/index.html">目录</a></h2>
+			<dl>
+				<dt>
+					<h3>ajax</h3>
+				</dt>
+				<dd><a href="../ajax/get.html" alt="使用Get方法获取数据">get</a></dd>
+				<dd><a href="../ajax/post.html" alt="使用Post方法传递数据">post</a></dd>
+			</dl>
+			<dl>
+				<dt>
+					<h3>array</h3>
+				</dt>
+				<dd><a href="../array/contains.html" alt="检查数组中是否含有某元素">contains</a></dd>
+				<dd><a href="../array/descendingSort.html" alt="将数组进行递减排序">descendingSort</a></dd>
+				<dd><a href="../array/empty.html" alt="清空数组">empty</a></dd>
+				<dd><a href="../array/increasingSort.html" alt="将数组进行递增排序">increasingSort</a></dd>
+				<dd><a href="../array/index.html" alt="获取元素在数组中的序号">index</a></dd>
+				<dd><a href="../array/intersection.html" alt="输出两个数组中的相同的数">intersection</a></dd>
+				<dd><a href="../array/lastIndexOf.html" alt="从后开始查找">lastIndexOf</a></dd>
+				<dd><a href="../array/max.html" alt="输出数组中的最大项">max</a></dd>
+				<dd><a href="../array/min.html" alt="输出数组中的最小项">min</a></dd>
+				<dd><a href="../array/random.html" alt="随机产生数组">random</a></dd>
+				<dd><a href="../array/remove.html" alt="移除元素">remove</a></dd>
+				<dd><a href="../array/removeAt.html" alt="移除指定位置的项">removeAt</a></dd>
+				<dd><a href="../array/shuffle.html" alt="打乱数组">shuffle</a></dd>
+				<dd><a href="../array/unique.html" alt="去除重复数据">unique</a></dd>
+			</dl>
+			<dl>
+				<dt>
+					<h3>browser</h3>
+				</dt>
+				<dd><a href="../browser/addFavorite.html" alt="将当前页加入到收藏夹">addFavorite</a></dd>
+				<dd><a href="../browser/chrome.html" alt="输出chrome信息">chrome</a></dd>
+				<dd><a href="../browser/core.html" alt="输出浏览器内核信息">core</a></dd>
+				<dd><a href="../browser/firefox.html" alt="输出ff信息">firefox</a></dd>
+				<dd><a href="../browser/ie.html" alt="输出ie信息">ie</a></dd>
+				<dd><a href="../browser/isGecko.html" alt="是否为Gecko内核">isGecko</a></dd>
+				<dd><a href="../browser/isWebkit.html" alt="是否为Webkit内核">isWebkit</a></dd>
+				<dd><a href="../browser/opera.html" alt="输出opera信息">opera</a></dd>
+				<dd><a href="../browser/safari.html" alt="输出safari信息">safari</a></dd>
+				<dd><a href="../browser/version.html" alt="输出浏览器版本信息">version</a></dd>
+			</dl>
+			<dl>
+				<dt>
+					<h3>cookie</h3>
+				</dt>
+				<dd><a href="../cookie/del.html" alt="销毁cookie">del</a></dd>
+				<dd><a href="../cookie/get.html" alt="获取cookie">get</a></dd>
+				<dd><a href="../cookie/set.html" alt="设置cookie">set</a></dd>
+			</dl>
+			<dl>
+				<dt>
+					<h3>date</h3>
+				</dt>
+				<dd><a href="../date/add.html" alt="计算日期">add</a></dd>
+				<dd><a href="../date/getCNDay.html" alt="显示周或星期">getCNDay</a></dd>
+				<dd><a href="../date/toString.html" alt="格式化日期">toString</a></dd>
+			</dl>
+			<dl>
+				<dt>
+					<h3>dom</h3>
+				</dt>
+				<dd><a href="../dom/selectors.html" alt="选择器">selectors</a></dd>
+				<dd><a href="../dom/addClass.html" alt="增加类">addClass</a></dd>
+				<dd><a href="../dom/after.html" alt="在每个匹配的元素之后插入内容">after</a></dd>
+				<dd><a href="../dom/append.html" alt="元素内部追加内容">append</a></dd>
+				<dd><a href="../dom/attr.html" alt="增加属性">attr</a></dd>
+				<dd><a href="../dom/before.html" alt="在每个匹配的元素之前插入内容">before</a></dd>
+				<dd><a href="../dom/css.html" alt="添加样式">css</a></dd>
+				<dd><a href="../dom/data.html" alt="设置data属性">data</a></dd>
+				<dd><a href="../dom/empty.html" alt="清空元素">empty</a></dd>
+				<dd><a href="../dom/eq.html" alt="获取第几个元素">eq</a></dd>
+				<dd><a href="../dom/even.html" alt="获取偶数个元素">even</a></dd>
+				<dd><a href="../dom/fadeIn.html" alt="淡入">fadeIn</a></dd>
+				<dd><a href="../dom/fadeOut.html" alt="淡出">fadeOut</a></dd>
+				<dd><a href="../dom/fadeTo.html" alt="变换到指定透明度">fadeTo</a></dd>
+				<dd><a href="../dom/first.html" alt="获取第一个元素">first</a></dd>
+				<dd><a href="../dom/getCss.html" alt="新增css">getCss</a></dd>
+				<dd><a href="../dom/getScript.html" alt="新增js">getScript</a></dd>
+				<dd><a href="../dom/gt.html" alt="匹配所有大于给定索引值的元素">gt</a></dd>
+				<dd><a href="../dom/hasClass.html" alt="检查是否含有某样式">hasClass</a></dd>
+				<dd><a href="../dom/hide.html" alt="隐藏">hide</a></dd>
+				<dd><a href="../dom/html.html" alt="创建html">html</a></dd>
+				<dd><a href="../dom/last.html" alt="获取最后一个元素">last</a></dd>
+				<dd><a href="../dom/lt.html" alt="匹配所有小于给定索引值的元素">lt</a></dd>
+				<dd><a href="../dom/next.html" alt="获取后一个元素">next</a></dd>
+				<dd><a href="../dom/odd.html" alt="获取奇数个元素">odd</a>
+				<dd><a href="../dom/offset.html" alt="获取匹配元素在当前视口的相对偏移">offset</a>
+				<dd><a href="../dom/on.html" alt="绑定事件">on</a>
+				<dd><a href="../dom/parent.html" alt="选择父级元素">parent</a></dd>
+				<dd><a href="../dom/prepend.html" alt="元素内部前置内容">prepend</a></dd>
+				<dd><a href="../dom/prev.html" alt="选择前一个元素">prev</a></dd>
+				<dd><a href="../dom/remove.html" alt="移除">remove</a></dd>
+				<dd><a href="../dom/removeAttr.html" alt="移除属性">removeAttr</a></dd>
+				<dd><a href="../dom/removeClass.html" alt="移除样式">removeClass</a></dd>
+				<dd><a href="../dom/replace.html" alt="置换元素">replace</a></dd>
+				<dd><a href="../dom/show.html" alt="显示">show</a></dd>
+				<dd><a href="../dom/sibilings.html" alt="获取兄弟元素">sibilings</a></dd>
+				<dd><a href="../dom/size.html" alt="返回元素数量">size</a></dd>
+				<dd><a href="../dom/slice.html" alt="选取一个匹配的子集">slice</a></dd>
+				<dd><a href="../dom/text.html" alt="创建文本">text</a></dd>
+				<dd><a href="../dom/toggle.html" alt="切换隐藏显示元素">toggle</a></dd>
+			</dl>
+			<dl>
+				<dt>
+					<h3>eventUtil</h3>
+				</dt>
+				<dd><a href="../eventUtil/addHandler.html" alt="添加事件监听">addHandler</a></dd>
+				<dd><a href="../eventUtil/getEvent.html" alt="获取参数">getEvent</a></dd>
+				<dd><a href="../eventUtil/getTarget.html" alt="获取目标">getTarget</a></dd>
+				<dd><a href="../eventUtil/preventDefault.html" alt="阻止浏览器默认事件">preventDefault</a></dd>
+				<dd><a href="../eventUtil/removeHandler.html" alt="移除事件监听">removeHandler</a></dd>
+				<dd><a href="../eventUtil/stopPropagation.html" alt="阻止冒泡事件">stopPropagation</a></dd>
+			</dl>
+			<dl>
+				<dt>
+					<h3>img</h3>
+				</dt>
+				<dd><a href="../img/isComplete.html" alt="图片是否已加载">isComplete</a></dd>
+                <dd><a href="../img/preload.html" alt="预加载图片">preload</a></dd>
+			</dl>
+			<dl>
+				<dt>
+					<h3>math</h3>
+				</dt>
+				<dd><a href="../math/randomColor.html" alt="随机颜色">randomColor</a></dd>
+				<dd><a href="../math/randomNum.html" alt="随机数">randomNum</a></dd>
+				<dd><a href="../math/sum.html" alt="求和">sum</a></dd>
+			</dl>
+			<dl>
+				<dt>
+					<h3>page</h3>
+				</dt>
+				<dd><a href="../page/getHeight.html" alt="获取页面高度">getHeight</a></dd>
+				<dd><a href="../page/getScrollLeft.html" alt="获取横向滚动量">getScrollLeft</a></dd>
+				<dd><a href="../page/getScrollTop.html" alt="获取纵向滚动量">getScrollTop</a></dd>
+				<dd><a href="../page/getViewHeight.html" alt="获取页面视觉区域高度">getViewHeight</a></dd>
+				<dd><a href="../page/getWidth.html" alt="获取页面视觉区域宽度">getViewWidth</a></dd>
+				<dd><a href="../page/getWidth.html" alt="获取页面宽度">getWidth</a></dd>
+				<dd><a href="../page/rollTo.html" alt="页面滚动至">rollTo</a></dd>
+				<dd><a href="../page/rollToBottom.html" alt="页面滚动至底部">rollToBottom</a></dd>
+				<dd><a href="../page/rollToTop.html" alt="页面滚动至顶部">rollToTop</a></dd>
+			</dl>
+			<dl>
+				<dt>
+					<h3>platform</h3>
+				</dt>
+				<dd><a href="../platform/isAndroid.html" alt="是否为安卓系统">isAndroid</a></dd>
+				<dd><a href="../platform/isBlackBerry.html" alt="是否为黑莓">isBlackBerry</a></dd>
+				<dd><a href="../platform/isIpad.html" alt="是否为iPad">isIpad</a></dd>
+				<dd><a href="../platform/isIphone.html" alt="是否为iPhone">isIphone</a></dd>
+				<dd><a href="../platform/isMacintosh.html" alt="是否为Mac">isMacintosh</a></dd>
+				<dd><a href="../platform/isMobile.html" alt="是否为移动设备">isMobile</a></dd>
+				<dd><a href="../platform/isWindows.html" alt="是否为Windows">isWindows</a></dd>
+				<dd><a href="../platform/isX11.html" alt="是否为X11">isX11</a></dd>
+			</dl>
+			<dl>
+				<dt>
+					<h3>regExp</h3>
+				</dt>
+				<dd><a href="../regExp/isAdult.html" alt="是否已成年">isAdult</a></dd>
+				<dd><a href="../regExp/isChinese.html" alt="是否为中文">isChinese</a></dd>
+				<dd><a href="../regExp/isDate.html" alt="是否为正确日期格式">isDate</a></dd>
+				<dd><a href="../regExp/isEmail.html" alt="是否为Email地址">isEmail</a></dd>
+				<dd><a href="../regExp/isIdcard.html" alt="是否为身份证号">isIdcard</a></dd>
+				<dd><a href="../regExp/isMobile.html" alt="是否为手机号">isMobile</a></dd>
+				<dd><a href="../regExp/isQQ.html" alt="是否为QQ号">isQQ</a></dd>
+				<dd><a href="../regExp/isTel.html" alt="是否为固定电话号">isTel</a></dd>
+				<dd><a href="../regExp/isURL.html" alt="是否为链接地址">isURL</a></dd>
+			</dl>
+			<dl>
+				<dt>
+					<h3>query</h3>
+				</dt>
+				<dd>
+					<a href="../query/selectors.html" alt="dom元素选择器">selectors</a>
+				</dd>
+			</dl>
+			<dl>
+				<dt>
+					<h3>string</h3>
+				</dt>
+				<dd><a href="encrypt.html" alt="加密">encrypt</a></dd>
+				<dd><a href="filterText.html" alt="屏蔽词">filterText</a></dd>
+				<dd><a href="isNotaNumber.html" alt="是否为数字">isNotaNumber</a></dd>
+				<!--<dd><a href="../lancer_js/string/md5.html" alt="md5加密">md5</a></dd>-->
+                <dd><a href="noNumbers.html" alt="是否存在数字">noNumbers</a></dd>
+				<dd><a href="onlyNumbers.html" alt="是否为仅有数字">onlyNumbers</a></dd>
+				<dd><a href="removeWhitespace.html" alt="移除字符串两边空白">removeWhitespace</a></dd>
+				<dd><a href="toArray.html" alt="转换为数组">toArray</a></dd>
+				<dd><a href="unEncrypt.html" alt="解密">unEncrypt</a></dd>
+			</dl>
+			<dl>
+				<dt>
+					<h3>url</h3>
+				</dt>
+				<dd><a href="../url/getQueryString.html" alt="获取url参数的键值对">getQueryString</a></dd>
+				<dd><a href="../url/getUrlParm.html" alt="获取url参数的值">getUrlParm</a></dd>
+				<dd class="last"><a href="../url/getUrlVars.html" alt="获取url参数">getUrlVars</a></dd>
+			</dl>
+		</div>
+		<div class="main">
+		<!-- InstanceBeginEditable name="main" -->
+	<div id="crumbs">当前位置： <span>string</span> &gt; <strong>encrypt</strong></div>
+	<div class="content">
+		<h4>加密</h4>
+		
+		<fieldset class="code eg">
+			<legend>使用方法</legend>
+			<p><span class="word">var &nbsp;initString = "hello&nbsp;world" ; </span></p>
+			<p><span class="word">alert ( ll.string ( initString ) .encrypt (  )  )</span></p>
+		</fieldset>
+		
+		<button id="run">运行以上代码</button>
+		
+		<fieldset class="code">
+			<legend>源代码</legend>
+			<p><span class="word">encrypt : function ( num ) {</span></p>
+			<p><span><span class="word">var str = this [ 0 ] ,</span></span></p>
+			<p><span><span><span class="word">p = num || 0 ,</span></span></span></p>
+			<p><span><span><span class="word">idea = 0 ,</span></span></span></p>
+			<p><span><span><span class="word">output = ' ' ,</span></span></span></p>
+			<p><span><span><span class="word">i = 0 ,</span></span></span></p>
+			<p><span><span><span class="word">alterText = [ ] ,</span></span></span></p>
+			<p><span><span><span class="word">varCost = [ ] ,</span></span></span></p>
+			<p><span><span><span class="word">TextSize = str . length ;	</span></span></span></p>
+			<p><span><span class="word">p = p + 1 ;</span></span></p>
+			<p><span><span class="word">for ( i = 0 ; i &lt ; TextSize; i + + ) {</span></span></p>
+			<p><span><span><span class="word">idea = Math.round ( Math.random ( )  * 111 ) + 77;</span></span></span></p>
+			<p><span><span><span class="word">alterText [ i ] = str.charCodeAt ( i ) + idea ;</span></span></span></p>
+			<p><span><span><span class="word">varCost [ i ] = idea ;</span></span></span></p>
+			<p><span><span class="word">}</span></span></p>
+			<p><span><span class="word">for ( i = 0 ; i &lt; TextSize ; i + + ) {</span></span></p>
+			<p><span><span><span class="word">output += String.fromCharCode ( alterText [ i ] , varCost [ i ] ) ;</span></span></span></p>
+			<p><span><span class="word">}</span></span></p>
+			<p><span><span class="word">return output ;</span></span></p>
+			<p><span class="word">}</span></p>
+		</fieldset>
+	</div>
+<!-- InstanceEndEditable -->	
+		</div>
+		<div class="clear"></div>
+		<div class="footer">
+			<p>Copyright © 2013 林卿个人版权所有  沪ICP备 1200214</p>
+			<p>QQ : 180003000, E-mail : <a href="mailto:lancer07@139.com">lancer07@139.com</a></p>
+		</div>
+	</div>
+	<script language="javascript" type="text/javascript" src="http://js.users.51.la/6446371.js"></script>
+	<noscript>
+	<a href="http://www.51.la/?6446371" target="_blank"><img  alt="&#x6211;&#x8981;&#x5566;&#x514D;&#x8D39;&#x7EDF;&#x8BA1;" src="http://img.users.51.la/6446371.asp" /></a>
+	</noscript>
+</body>
+<!-- InstanceEnd --></html>

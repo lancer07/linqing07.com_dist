@@ -1,0 +1,61 @@
+/* CSS Document */
+body { background: #2e3339; color: #FFF; font-size: 14px; font-family: "Courier New", Courier, monospace;}
+.mainBody{min-width:1182px; }
+.header { height: 47px; text-align: right; padding: 12px 10px; }
+.header .logo {font-family: "Comic Sans MS", cursive; float: left; padding-left:50px; line-height:40px; text-shadow:2px 2px 1px #006633; background:url(../../../lancer_js/assests/images/logo.png) no-repeat left 2px;}
+.header .logo a{ color:#FFF; font-size: 34px; }
+.header .logo a em{ font-size:20px; margin-right:15px;}
+.header .logo a b{ font-size:20px; font-weight:normal}
+
+.header .logo a:hover{ color:#FF6}
+.header .download a{ display:inline-block; padding:4px 15px; font-size:14px; color:#FFF; border:1px solid #2b2d44; background:#5C636D; margin:10px 0 0 10px; border-radius:6px; }
+.header .download a:hover{ background:#505761}
+
+#tree { float: left; margin-left:10px; min-height:550px; width: 260px; background: #eff0f2; border-radius:8px }
+#tree h2 { background:url(../../../lancer_js/assests/images/title.jpg) repeat-x; height:30px; line-height:28px; padding-left:20px; border-radius:8px 8px 0 0 ; color:#333; padding: 0 0 0px 33px; border-bottom: 1px solid #90949d }
+#tree h2 a{ color:#333;}
+#tree dl dt { height: 25px; padding-left: 14px; border-bottom: 1px solid #52555c; background: url(../../../lancer_js/assests/images/navDtBg.jpg) repeat-x; cursor: pointer }
+#tree dl dt h3 { padding-left: 19px; background: url(../../../lancer_js/assests/images/close.jpg) no-repeat left center  }
+#tree dl dd { display: none }
+#tree dl.open dt h3 { background: url(../../../lancer_js/assests/images/open.jpg) no-repeat left center;  }
+#tree dl.open dd { display: block }
+#tree dd { height: 25px; border-bottom: 1px solid #CCC; }
+#tree dd a { color: #333; padding-left: 33px; display: block; height: 25px; }
+#tree dd a:hover, #tree dd.cur a { background: url(../../../lancer_js/assests/images/navAbg.jpg) repeat-x  }
+#tree dd.cur a{ font-weight:bold}
+
+#navTitleSpan{ position:absolute; z-index:10; background:#333; color:#FFF; padding:2px 5px;}
+
+.main { margin:0 12px 0 280px; background: #eff0f2; border-radius:8px; min-height:550px;color:#333 }
+#crumbs{ background:url(../../../lancer_js/assests/images/title.jpg) repeat-x; height:30px; line-height:28px; padding-left:20px; border-radius:8px 8px 0 0 ; color:#333 }
+.main h4{ font-size:16px;}
+.main .content{ padding:20px;}
+.main .content .code{ line-height:24px; margin:20px 0; background:#E1E1E1; padding:20px; border:1px solid #666; border-radius:8px; letter-spacing:1px; }
+.main .content .code legend{ padding:0 8px 0 14px;}
+.main .content .code div.demo{ min-height:150px; _height:150px; width:100%; border:1px solid #666; background:#FFF}
+.main .content .code div.demo button,
+.main .content .code div.demo div,
+.main .content .code div.demo ul{ margin:20px;}
+.main .content .code p{ padding:0 20px; position:relative; line-height:30px; background-image:url(../../../lancer_js/assests/images/code.gif); background-repeat:repeat-y; background-position:32px 0; font-family: "consolas","Courier New", Courier, monospace;}
+.main .content .code p.even{ background-color:#D8D8D8}
+.main .content .code p em{ font-size:12px; font-style:normal; color:#09F; position:absolute; left:8px;}
+.main .content .code span{ padding-left:2em; display:inline-block;}
+.main .content .code b.keyword{ color:#AE0055; font-weight:bold; margin:0 2px;}
+.main .content .code b.values{ color:#066; margin:0 2px}
+.main .content .code b.sign{ color:#03F; margin:0 2px;}
+.main .content .code b.num{ color:#6F1D7A; margin:0 2px;}
+.main .content .code b.note{ color:#3F7F5F; margin-left:40px; font-weight:normal}
+
+.catalog dl{ display:inline-block; width:100%; vertical-align:top; margin:14px 0;border:1px solid #001D2B; clear:both; background:#E6E6E6; border-radius:6px; box-shadow:6px 6px 6px #999999}
+.catalog dl dt{ color:#FFF; line-height:34px; background:#2E3339; padding:0 0 0 15px;}
+.catalog dl dd{ display:inline; line-height:36px; margin:5px 15px; padding-left:10px; background:url(../../../lancer_js/assests/images/code.gif) no-repeat left center}
+.catalog dl dd a{color:#2E3339;}
+.catalog dl dd a:hover{ text-decoration:underline; color:#039}
+
+#run,.run{ background:url(../../../lancer_js/assests/images/title.jpg) repeat-x; border:1px solid #6C757D; padding:2px 14px;cursor:pointer; border-radius:3px}
+#run:hover,.run:hover{ background:#A8ADB3}
+
+
+.clear{ clear:both}
+.footer { border-top:1px solid #41464c; margin:15px 0 0 0; line-height:18px; padding:10px; clear: both; text-align: right; font-size: 12px; color:#737a82; }
+.footer a{ color:#737a82}

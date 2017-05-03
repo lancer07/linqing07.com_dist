@@ -1,0 +1,176 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3c.org/TR/1999/REC-html401-19991224/loose.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>网页js特效</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=gb2312">
+    <meta content="" name="description">
+    <meta content="name=keywords">
+    <link href="css/niutuku.css" type="text/css" rel="stylesheet"></head>
+<body>
+
+    <script language="javascript" src="js/niutuku.js"></script>
+
+    <div class="mydpx lanmu cl">
+        <div class="top">
+            <span class="fr">
+                <a href="http://www.niutuku.com" target="_blank">更多</a>
+            </span>
+        </div>
+        <div class="bottom">
+            <table>
+                <tbody>
+                    <tr>
+                        <td>
+                            <img class="pointer" id="arrLeft" src="images/an_2.jpg"></td>
+                        <td width="900">
+                            <div id="scrollbox">
+                                <ul>
+                                    <li>
+                                        <table>
+                                            <tbody>
+                                                <tr>
+                                                    <td>
+                                                        <a href="http://www.niutuku.com" target="_blank">
+                                                            <img src="images/mt.jpg"></a>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        <a href="http://www.niutuku.com" target="_blank">艺术家打造的美人醉红妆</a>
+                                                    </td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </li>
+                                    <li>
+                                        <table>
+                                            <tbody>
+                                                <tr>
+                                                    <td>
+                                                        <a href="http://www.niutuku.com" target="_blank">
+                                                            <img src="images/mt2.jpg"></a>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        <a href="http://www.niutuku.com" target="_blank">九月刊封面20款最潮妆</a>
+                                                    </td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </li>
+                                    <li>
+                                        <table>
+                                            <tbody>
+                                                <tr>
+                                                    <td>
+                                                        <a href="http://www.niutuku.com" target="_blank">
+                                                            <img src="images/mt(1).jpg"></a>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        <a href="http://www.niutuku.com" target="_blank">4款阳光炫彩妆娇艳出行</a>
+                                                    </td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </li>
+                                    <li>
+                                        <table>
+                                            <tbody>
+                                                <tr>
+                                                    <td>
+                                                        <a href="http://www.niutuku.com" target="_blank">
+                                                            <img src="images/mt3.jpg"></a>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        <a href="http://www.niutuku.com" target="_blank">巴西第一整容国</a>
+                                                    </td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </li>
+                                    <li>
+                                        <table>
+                                            <tbody>
+                                                <tr>
+                                                    <td>
+                                                        <a href="http://www.niutuku.com" target="_blank">
+                                                            <img src="images/mt2(1).jpg"></a>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        <a href="http://www.niutuku.com" target="_blank">唇女人时代</a>
+                                                    </td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </li>
+                                    <li>
+                                        <table>
+                                            <tbody>
+                                                <tr>
+                                                    <td>
+                                                        <a href="http://www.niutuku.com" target="_blank">
+                                                            <img src="images/mt(2).jpg"></a>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        <a href="http://www.niutuku.com" target="_blank">部落公主般的冷艳妆</a>
+                                                    </td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </li>
+                                    <li>
+                                        <table>
+                                            <tbody>
+                                                <tr>
+                                                    <td>
+                                                        <a href="http://www.niutuku.com" target="_blank">
+                                                            <img src="images/meit.jpg"></a>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        <a href="http://www.niutuku.com" target="_blank">魅眼睫毛膏10大经典眼妆</a>
+                                                    </td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </li>
+                                </ul>
+                            </div>
+                        </td>
+                        <td>
+                            <img class="pointer" id="arrRight" src="images/an_3.jpg"></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+    <script language="javascript" type="text/javascript">
+        var scrollPic_02 = new ScrollPic();
+        scrollPic_02.scrollContId = "scrollbox"; //内容容器ID
+        scrollPic_02.arrLeftId = "arrLeft"; //左箭头ID
+        scrollPic_02.arrRightId = "arrRight"; //右箭头ID
+
+        scrollPic_02.frameWidth = 900; //显示框宽度
+        scrollPic_02.pageWidth = 180; //翻页宽度
+
+        scrollPic_02.speed = 10; //移动速度(单位毫秒，越小越快)
+        scrollPic_02.space = 10; //每次移动像素(单位px，越大越快)
+        scrollPic_02.autoPlay = false; //自动播放
+        scrollPic_02.autoPlayTime = 3; //自动播放间隔时间(秒)
+
+        scrollPic_02.initialize(); //初始化
+    </script>
+
+</body>
+</html>
